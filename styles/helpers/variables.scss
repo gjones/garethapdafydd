@@ -1,0 +1,44 @@
+$gold: #8B712E;
+$charcoal: #454545;
+$midGrey: #B6B6B6;
+$light: #EAEAEA;
+
+$accentColour: $gold;
+$textColour: $charcoal;
+$subtleColour: $midGrey;
+$separatorColour: $light;
+
+// text sizes
+$textSmall: 0.875rem;
+$textRegular: 1rem;
+$textLarge: 1.25rem;
+$textLarger: 2.625rem;
+$textLargest: 3.25rem;
+
+// text weight
+$textRegular: normal;
+$textBold: bold;
+
+// sizing
+$baseSize:     16px !default;
+$sizeXXS:   $baseSize * .15 !default;
+$sizeXS:   $baseSize * .25 !default;
+$sizeS:    $baseSize * .5 !default;
+$sizeM:    $baseSize * .75 !default;
+$sizeML:   $baseSize * 1.25 !default;
+$sizeL:    $baseSize * 1.5 !default;
+$sizeXL:   $baseSize * 2 !default;
+$sizeXXL:  $baseSize * 2.5 !default;
+
+// breakpoints
+@mixin breakpoint($point) {
+  @if $point == largeScreens {
+    @media only screen and (min-width : 64em) { @content; }
+  }
+  @if $point == mediumScreens {
+    @media only screen and (max-width : 64em) { @content; }
+  }
+  @else if $point == phone {
+    @media only screen and (max-width : 47.5em) { @content; }
+  }
+}

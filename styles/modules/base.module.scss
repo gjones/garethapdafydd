@@ -1,0 +1,64 @@
+@import '../helpers/variables.scss';
+@import '../helpers/grid.scss';
+@import '../helpers/typography.scss';
+
+// Setup base layout
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+  .main {
+    flex: 1 1 auto;
+    width: 70%;
+  
+    @include breakpoint(phone) {
+      width: 94%;
+    }
+  
+    @include breakpoint(mediumScreens) {
+      width: 94%;
+    }
+  }
+}
+
+// Setup title area 
+.flexGroupHeadline {
+  @extend .flexGroup;
+}
+
+.flexItemHeadlineImage {
+  @extend .flexItem, .growZero;
+  max-width: 10rem;
+
+  .profileImage {
+    height: 6.75em;
+    width: 6.75rem;
+    border-radius: 10rem;
+    margin-top: 3.5rem;
+  }
+
+  @include breakpoint(phone) {
+    display: none;
+  }
+}
+
+.flexItemHeadlineText {
+  @extend .flexItem;
+}
+
+.smallHeadline {
+  @extend .smallHeadline__default;
+}
+
+.largeHeadline {
+  @extend .largeHeadline__default;
+}
+
+.horizontalDivide {
+  @extend .divideHorizontal;
+}

@@ -1,0 +1,11 @@
+.standardButton {
+  @extend .flexItem-growZero;
+  background: rgba(139, 113, 46, 0.6);
+  color: white;
+  padding: $sizeS $sizeL;
+  border-radius: 2rem;
+
+  &:hover {
+    background: rgba(139, 113, 46, 0.4);;
+  }
+}

@@ -1,0 +1,76 @@
+@import '../helpers/variables.scss';
+@import '../helpers/grid.scss';
+@import '../helpers/typography.scss';
+
+.project {
+  @extend .flexGroup,.justifySpaceBetween;
+  
+  .projectLeft, .projectRight {
+    @extend .flexItem-growZero;
+    max-width: 50%;
+  }
+
+  .projectRight {
+    padding-right: 2%;
+
+    .leadImage {
+      max-height: 28rem;
+      max-width: 28rem;
+    }
+
+    .leadImageAlt {
+      max-width: 28rem;
+    }
+
+    .flexImageGroup {
+      @extend .flexGroup;
+      div {
+        margin-right: $sizeXS;
+        
+        &:first-child {
+          margin-left: $sizeM;
+        }
+      }
+    }
+
+    .starImage {
+      max-height: 1.375rem;
+      max-width: 1.375rem;
+    }
+
+    .starText {
+      color: $midGrey;
+      margin-left: $sizeM;
+      padding-top: 0;
+    }
+
+    
+  }
+
+  .projectHeadline {
+    @extend .largishHeadline__default;
+  }
+
+  p {
+    @extend .textRegular__default;
+  }
+
+  .projectButton {
+    @extend .flexItem-growZero;
+    background: rgba(139, 113, 46, 0.6);
+    color: white;
+    padding: $sizeS $sizeL;
+    border-radius: 2rem;
+    height: 2.2rem;
+  
+    &:hover {
+      background: rgba(139, 113, 46, 0.4);
+      cursor: pointer;
+    }
+  }
+
+  .horizontalDivide {
+    @extend .divideHorizontal;
+  }
+
+}

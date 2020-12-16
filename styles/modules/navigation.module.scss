@@ -1,0 +1,32 @@
+@import '../helpers/variables.scss';
+@import '../helpers/grid.scss';
+
+.header {
+  @extend .flexGroup, .justifyContentFlexEnd;
+  padding: $sizeXL;
+
+  @include breakpoint(phone) {
+    padding: $sizeS;
+  }
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @extend .flexGroup, .gutterLarge;
+}
+
+.item {
+  @extend .flexItem, .growZero;
+
+  a.link {
+    padding: $baseSize;
+    color: $textColour;
+    text-decoration: none;
+
+    &:hover, &.active {
+      color: $accentColour;
+    }
+  }
+}

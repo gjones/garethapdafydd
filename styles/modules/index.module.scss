@@ -1,0 +1,79 @@
+@import '../helpers/variables.scss';
+@import '../helpers/grid.scss';
+@import '../helpers/typography.scss';
+
+.introduction {
+  @extend .flexGroup;
+}
+
+.introSpacer {
+  @extend .spacerExtraLarge;
+}
+
+.leftbar, .centre, .rightbar {
+  @extend .flexItem-growZero;
+}
+
+.leftbar {
+  img.waveSymbol {
+    margin: $sizeM $sizeL;
+    max-width: $sizeML;
+    height: $sizeML;
+  }
+
+  @include breakpoint(phone) {
+    display: none;
+  }
+}
+
+.rightbar {
+  margin: 4rem 6rem;
+
+  img {
+    max-width: 16rem;
+  }
+
+  @include breakpoint(phone) {
+    display: none;
+  }
+}
+
+.centre {
+  max-width: 44rem;
+  margin: 0;
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+
+  p {
+    @extend .textRegular__default;
+  }
+
+  .mobileHero {
+    display: none;
+    align-self: center;
+    margin: 1rem auto 2rem;
+    max-width: 86%;
+    @include breakpoint(phone) {
+      display: block;
+    }
+  }
+
+  .separatorImage {
+    align-self: center;
+    margin: 1rem auto 2rem;
+    max-width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto;
+
+    @include breakpoint(phone) {
+      display: none;
+    }
+  }
+
+  @include breakpoint(phone) {
+    width: 100%;
+  }
+}

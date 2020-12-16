@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    "module": "commonjs",
+    "resolveJsonModule": true, /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */// "lib": [],                             /* Specify library files to be included in the compilation. */
+    "jsx": "preserve", /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    "declaration": true, /* Generates corresponding '.d.ts' file. */// "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    "outDir": "lib", /* Redirect output structure to the directory. */// "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "strict": true, /* Enable all strict type-checking options. */// "noImplicitAny": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+    "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "@includes/*": ["components/includes/*"],
+      "@layouts/*": ["components/layouts/*"],
+      "@api": ["api/index"],
+      "@thoughts/*": ["pages/thoughts/*"],
+      "@styles/*": ["styles/*"]
+    }, 
+    "types": [
+      "typePatches"
+    ],        
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true 
+    ,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx", "next.config.js", "lib/posts.js", "components/helpers/ActiveLink.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

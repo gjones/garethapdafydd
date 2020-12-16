@@ -1,0 +1,116 @@
+.flexGroup {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+
+  &.gutterSmall {
+    margin: -$sizeS * .5;
+
+    & > .flexItem {
+      margin: $sizeS * .5;
+    }
+  }
+
+  &.gutterMedium {
+    margin: -$baseSize * .5;
+
+    & > .flexItem {
+      margin: $baseSize * .5;
+    }
+  }
+
+  &.gutterLarge {
+    margin: -$sizeL * .5;
+
+    & > .flexItem {
+      margin: $sizeL * .5;
+    }
+  }
+
+  &.gutterExtraLarge {
+    margin: -$sizeXXL * .5;
+
+    & > .flexItem {
+      margin: $sizeXXL * .5;
+    }
+  }
+
+  &.justifySpaceBetween {
+    justify-content: space-between;
+  }
+
+  &.justifyContentCenter {
+    justify-content: center;
+  }
+
+  &.justifyContentFlexEnd {
+    justify-content: flex-end;
+  }
+
+  &.alignItemsCenter {
+    align-items: center;
+  }
+
+  &.directionRowReverse {
+    flex-direction: row-reverse;
+  }
+
+  &.directionColumn {
+    flex-direction: column;
+  }
+
+  .flexItem {
+    flex-grow: 1;
+    flex-basis: 0%; /* 2 */
+  }
+}
+
+.flexItem {
+  display: flex; /* 1 */
+  flex-direction: column; /* 1 */
+
+  &.growZero { /* 1 */
+    flex-grow: 0; /* 2 */
+    flex-basis: auto; /* 2 */
+  }
+}
+
+.flexItem-growZero, .flexItemGrowZero {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-basis: auto;
+}
+
+@include breakpoint(phone) {
+  .flexGroup--responsive > .flexItem {
+    // sass-lint:disable-block no-important
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: $baseSize !important;
+  }
+}
+
+.spacerSmall {
+  height: $sizeS;
+}
+
+.spacerMedium {
+  height: $sizeM;
+}
+
+.spacerLarge {
+  height: $sizeL;
+}
+
+.spacerExtraLarge {
+  height: $sizeXXL;
+}
+
+.divideHorizontal {
+  border-bottom: 1px solid $separatorColour;
+  display: block;
+  margin: 0 auto;
+}
