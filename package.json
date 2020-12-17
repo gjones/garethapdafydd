@@ -16,12 +16,13 @@
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "10.0.3",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "saas": "^1.0.0",
-    "sass": "^1.30.0"
+    "sass": "^1.30.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.14",
