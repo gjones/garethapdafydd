@@ -10,7 +10,7 @@ const LargeHeadlineStyle = styled.h1`
   margin-top: ${(props) => props.theme.sizes.sizeXXS};
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    font-size: ${(props) => props.theme.fontSizes.textLarger}; 
+    font-size: ${(props) => props.theme.fontSizes.textLarger};
     line-height: 1.1;
   }
 `
@@ -33,6 +33,7 @@ const ProfileImage = styled.div`
     width: 6.75rem;
     border-radius: 10rem;
     margin-top: 3.5rem;
+    margin-right: ${(props) => props.theme.sizes.sizeL};
   }
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {

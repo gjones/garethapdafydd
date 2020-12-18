@@ -31,11 +31,8 @@ const Container = styled.main`
     flex: 1 1 auto;
     width: 70%;
 
-    @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-      width: 94%;
-    }
-
-    @media only screen and ${(props) => props.theme.mediaQueries.mediumcreens} {
+    @media only screen and ${(props) =>
+        props.theme.mediaQueries.mediumScreens} {
       width: 94%;
     }
   }

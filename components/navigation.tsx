@@ -1,4 +1,4 @@
-import ActiveLink from '../components/activeLink'
+import ActiveLink from './utils/activeLink'
 import useDarkMode from 'use-dark-mode'
 import styled from 'styled-components'
 import styles from '@styles/modules/navigation.module.scss'
@@ -11,7 +11,7 @@ const Header = styled.header`
   align-items: stretch;
   flex-grow: 1;
   justify-content: flex-end;
-  padding: ${(props) => props.theme.sizes.sizeXL};
+  padding: ${(props) => props.theme.sizes.sizeXL} 0;
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     padding: ${(props) => props.theme.sizes.sizeS};
@@ -47,7 +47,6 @@ const NavLink = styled.a`
     padding: 0;
   }
 `
-function handleChange() {}
 export default function Navigation() {
   const darkMode = useDarkMode(true)
 

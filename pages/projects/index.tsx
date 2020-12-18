@@ -28,7 +28,7 @@ const ProjectTitle = styled.h2`
   margin-bottom: ${(props) => props.theme.sizes.sizeM};
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    font-size: ${(props) => props.theme.fontSizes.textLarger}; 
+    font-size: ${(props) => props.theme.fontSizes.textLarger};
     line-height: 1.1;
   }
 `
@@ -39,10 +39,16 @@ const FlexSplitL = styled.div`
   flex-grow: 0;
   flex-basis: auto;
   max-width: 50%;
+  padding-right: 3%;
+
+  @media only screen and ${(props) => props.theme.mediaQueries.mediumScreens} {
+    padding-right: 6%;
+  }
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     max-width: 94%;
     padding-left: 2%;
+    padding-right: 0;
   }
 `
 
@@ -110,7 +116,7 @@ export default function Projects() {
   return (
     <Page
       title='Projects | Gareth ap Dafydd'
-      description='A collection of past notable project from my career | Gareth ap Dafydd'
+      description='A collection of past notable project from my career'
       smallHeadline='Projects'
       largeHeadline='A selection of both personal and professional work'>
       <SpacerXL />

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Page from '@layouts/base_layout'
-import Date from '../../components/date'
+import Date from '../../components/utils/date'
 import { getSortedPostsData } from 'lib/posts'
 import styled from 'styled-components'
 
@@ -38,7 +38,7 @@ const BlogHeadline = styled.h2`
   margin-bottom: ${(props) => props.theme.sizes.sizeM};
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    font-size: ${(props) => props.theme.fontSizes.textLarger}; 
+    font-size: ${(props) => props.theme.fontSizes.textLarger};
     line-height: 1.1;
   }
 `
@@ -48,7 +48,7 @@ export default class Thoughts extends React.Component<Props> {
     return (
       <Page
         title='Thoughts &amp; Musings | Gareth ap Dafydd'
-        description='Some thoughts and musings | Gareth ap Dafydd'
+        description='Some thoughts and musings from Gareth Dafydd Jones, designer and developer'
         smallHeadline='Thoughts &amp; Musings'
         largeHeadline='I barely tweet, so don’t expect much in the way of blog posts'>
         <PostList>
@@ -56,16 +56,15 @@ export default class Thoughts extends React.Component<Props> {
             <li key={id}>
               <Link href={`/thoughts/${id}`}>
                 <BlogPost>
-                  
-                    <BlogDate>
-                      <Date dateString={date} />
-                    </BlogDate>
-                    <BlogHeadline>{title}</BlogHeadline>
-                    <DefaultText>{abstract}</DefaultText>
-                    <FlexGroup>
-                      <PrimaryButton>Read post</PrimaryButton>
-                    </FlexGroup>
-                  
+                  <BlogDate>
+                    <Date dateString={date} />
+                  </BlogDate>
+                  <BlogHeadline>{title}</BlogHeadline>
+                  <DefaultText>{abstract}</DefaultText>
+                  <FlexGroup>
+                    <PrimaryButton>Read post</PrimaryButton>
+                  </FlexGroup>
+
                   <SpacerXL />
                   <HorizontalDivide />
                 </BlogPost>

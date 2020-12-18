@@ -1,7 +1,7 @@
 import React from 'react'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import PostPage from '@layouts/post_layout'
-import Date from '../../components/date'
+import Date from '../../components/utils/date'
 
 interface Props {
   postData: any
@@ -30,7 +30,7 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps({ params } : { params: any}) {
+export async function getStaticProps({ params }: { params: any }) {
   const postData = await getPostData(params.id)
   return {
     props: {

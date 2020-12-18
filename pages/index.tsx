@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <Page
       title='Gareth ap Dafydd | Home'
-      description='Designer and Developer'
+      description='The online home of Gareth Dafydd Jones. Design and Developer'
       smallHeadline='Gareth ap Dafydd'
       largeHeadline='Design lead at Elastic.'
       largeHeadline2='Independent iOS app developer'
@@ -91,11 +91,11 @@ export default function Home() {
           <DefaultText>
             While no longer my full-time profession, I still love developing. My
             iOS app, Fight Scores, has amassed a loyal group of users and an
-            average app store rating of 4.5.
+            average app store rating of over 4.5.
           </DefaultText>
           <DefaultText>
-            I love to write swift, ruby on rails, and react. When I get time I
-            enjoy dabbling with elixir and phoenix.
+            I love to write Swift, Ruby on Rails, and React. When I get time I
+            enjoy dabbling with Elixir and Phoenix.
           </DefaultText>
           <SeparatorPhoto
             src='/assets/images/separator@2x.png'
