@@ -15,8 +15,10 @@ True, my personal site is very basic and does not even require a database. The r
 
 After trying out a couple of options I settled on [Middleman](http://middlemanapp.com), Middleman is a Ruby and Sinatra based static site generator. Setup was quick and simple and using the helpful [Middleman-Sync](https://github.com/karlfreeman/middleman-sync) gem deployment to Amazon S3 was a breeze. Middleman also has a gem for the purpose of blogging so I added that and went about setting up the 'thoughts' portion of my site. With my technology stack and deployment now secure in my mind, it was time to get creative.
 
-<img src="/assets/images/posts/work-in-sketch.png" alt="Designing my Website in Sketch" title="Designing my Website in Sketch" width="640" height="360" class='centred' />
- 
+<div class='left'>
+  <img src="/assets/images/posts/work-in-sketch.png" alt="Designing my Website in Sketch" title="Designing my Website in Sketch" width="640" height="360" />
+</div>
+
 _This site as designed in Sketch_
  
 Most of my designs start in a notepad before graduating to [Sketch](http://www.bohemiancoding.com/sketch/) and how far through the design I get in Sketch varies before I inevitably switch to designing in a browser. I finally decided on what I felt was the right design for my needs, light and airy, subtle and spacious.

@@ -16,8 +16,10 @@ It does seem that after 5 years of the iPad, Apple has finally started to wake u
 As a sidenote, this post was written and deployed on my iPad. Panic's excellent [Coda for iOS](https://panic.com/coda-ios/) acted as both my text editor and a terminal to allow me to run a local server and deploy the code. I'd like to believe that in the next year or so the iPad will be able to run a local server itself, for now I have to be content to ssh into my Macbook Pro in order to achieve this. This is another example that in order to fulfill it's potential, not only does the iPad's UI need to change, but also the underlying capabilities of the software its running on.
  
 Update: Most of my development work these days is done in Xcode using Swift, and if the rumours that [Apple are working on Xcode for iOS](http://daringfireball.net/linked/2015/11/12/ipad-pro-xcode) are true, then I will be a very happy man.
-	
-<img src="/assets/images/posts/developing-ipad.png" alt="web development on my iPad"
+
+<div class='left'>
+	<img src="/assets/images/posts/developing-ipad.png" alt="web development on my iPad"
 	title="web development on my iPad" width="768" height="576" class='centred' />
+</div>
 
  _*it could be argued that it was indeed intentional._

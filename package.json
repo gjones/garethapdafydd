@@ -19,6 +19,7 @@
     "next": "10.0.3",
     "react": "16.14.0",
     "react-dom": "16.14.0",
+    "react-switch": "^5.0.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "saas": "^1.0.0",

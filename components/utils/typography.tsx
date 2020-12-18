@@ -7,5 +7,13 @@ export const DefaultText = styled.p`
   padding-bottom: ${(props) => props.theme.sizes.baseSize};
   padding-top: ${(props) => props.theme.sizes.sizeS};
   margin: 0;
+
+  a {
+    color: ${(props) => props.theme.text.link};
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 `

@@ -16,7 +16,7 @@ type Props = {
 }
 
 const Wrapper = styled.section`
-  background: ${(props) => props.theme.bg};
+  background: ${(props) => props.theme.background};
 `
 
 const Container = styled.main`

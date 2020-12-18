@@ -15,4 +15,6 @@ As an independent app developer I'm very excited about this announcement, I've c
 
 If you’re interested in more information on this announcement, [Under the radar]('https://www.relay.fm/radar/64') has an excellent 30 minute summary.
 
-![SKStoreReviewController](http://garethdjones.com/images/articles/skstorereviewcontroller@2x.png)
+<div class='centred'>
+    ![SKStoreReviewController](http://garethdjones.com/images/articles/skstorereviewcontroller@2x.png)
+</div>

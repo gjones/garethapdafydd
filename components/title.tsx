@@ -8,6 +8,11 @@ const LargeHeadlineStyle = styled.h1`
   color: ${(props) => props.theme.text.default};
   max-width: 55rem;
   margin-top: ${(props) => props.theme.sizes.sizeXXS};
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    font-size: ${(props) => props.theme.fontSizes.textLarger}; 
+    line-height: 1.1;
+  }
 `
 
 const SmallHeadlineStyle = styled.h2`

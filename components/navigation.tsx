@@ -2,7 +2,9 @@ import ActiveLink from '../components/activeLink'
 import useDarkMode from 'use-dark-mode'
 import styled from 'styled-components'
 import styles from '@styles/modules/navigation.module.scss'
-import { FlexListItem } from './utils/grid'
+import { FlexGroup, FlexItem, FlexListItem } from './utils/grid'
+import GlyphSun from './glyphs/glyph_sun'
+import GlyphMoon from './glyphs/glyph_moon'
 
 const Header = styled.header`
   display: flex;
@@ -13,6 +15,7 @@ const Header = styled.header`
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     padding: ${(props) => props.theme.sizes.sizeS};
+    justify-content: space-between;
   }
 `
 
@@ -21,8 +24,13 @@ const NavList = styled.ul`
   margin: 0;
   list-style: none;
   display: flex;
-  align-items: stretch;
+  align-items: center;
+
   flex-grow: 1;
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    flex-wrap: wrap;
+  }
 `
 
 const NavLink = styled.a`
@@ -34,8 +42,12 @@ const NavLink = styled.a`
     color: ${(props) => props.theme.text.link};
     cursor: pointer;
   }
-`
 
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    padding: 0;
+  }
+`
+function handleChange() {}
 export default function Navigation() {
   const darkMode = useDarkMode(true)
 
@@ -59,8 +71,18 @@ export default function Navigation() {
             </ActiveLink>
           </FlexListItem>
           <FlexListItem>
-            <button onClick={darkMode.enable}>DARK MODE</button>
-            <button onClick={darkMode.disable}>LIGHT MODE</button>
+            <FlexGroup>
+              <FlexItem>
+                <a onClick={darkMode.disable}>
+                  <GlyphSun />
+                </a>
+              </FlexItem>
+              <FlexItem>
+                <a onClick={darkMode.enable}>
+                  <GlyphMoon />
+                </a>
+              </FlexItem>
+            </FlexGroup>
           </FlexListItem>
         </NavList>
       </nav>

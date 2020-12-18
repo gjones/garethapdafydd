@@ -2,11 +2,12 @@ const defaultTheme = {
   colours: {
     gold: `#8B712E`,
     lightGold: `#A98833`,
+    opaqueGold: `rgba(139, 113, 46, 0.6)`,
     charcoal: `#454545`,
     midGrey: `#B6B6B6`,
     light: `#EAEAEA`,
     white: `#FFFFFF`,
-    black: `#000000`,
+    black: `#151515`,
   },
   sizes: {
     sizeXXS: `0.15rem`,
@@ -38,22 +39,42 @@ const defaultTheme = {
 };
 
 const light = {
-  bg: defaultTheme.colours.white,
+  background: defaultTheme.colours.white,
   text: {
     default: defaultTheme.colours.charcoal,
     accent: defaultTheme.colours.gold,
     link: defaultTheme.colours.gold,
+    light: defaultTheme.colours.midGrey,
+  },
+  button: {
+    background: defaultTheme.colours.opaqueGold,
+    colour: defaultTheme.colours.white,
+    hoverBackground: defaultTheme.colours.gold,
+    sunDarkModeColour: defaultTheme.colours.opaqueGold,
+    sunDarkModeHoverColour: defaultTheme.colours.gold,
+    moonDarkModeColour: defaultTheme.colours.midGrey,
+    moonDarkModeHoverColour: defaultTheme.colours.charcoal,
   },
   divide: defaultTheme.colours.light,
   // ...
 }
 
 const dark = {
-  bg: defaultTheme.colours.black,
+  background: defaultTheme.colours.black,
   text: {
     default: defaultTheme.colours.white,
     accent: defaultTheme.colours.lightGold,
     link: defaultTheme.colours.lightGold,
+    light: defaultTheme.colours.midGrey,
+  },
+  button: {
+    background: defaultTheme.colours.opaqueGold,
+    colour: defaultTheme.colours.black,
+    hoverBackground: defaultTheme.colours.gold,
+    sunDarkModeColour: defaultTheme.colours.charcoal,
+    sunDarkModeHoverColour: defaultTheme.colours.midGrey,
+    moonDarkModeColour: defaultTheme.colours.opaqueGold,
+    moonDarkModeHoverColour: defaultTheme.colours.lightGold,
   },
   divide: defaultTheme.colours.charcoal,
   // ...

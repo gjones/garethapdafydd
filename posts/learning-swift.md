@@ -9,9 +9,11 @@ When Apple announced their new programming language, Swift in August 2014, I tho
 
 As Swift was a brand new language, initially there were not many places to get started with it. I, like thousands of others, immediately downloaded the official [Swift Programming Language](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11)book from the iBooks store and set about trying out the examples in the new playground feature of the latest Xcode beta. Running through each of these tutorials were ok but I quickly found that I needed more information around each topic to get a wider understanding of the key concepts. I’ve always been someone that learned my development skills initially through the medium of videos. I remember watching Andy Clarke and Molly E. Holzschlag's [CSS course on Lynda.com](http://www.lynda.com/CSS-tutorials/for-designers/216-2.html) back in 2006 when my company at the time were looking to move beyond a table-based website created in Dreamweaver. The incredible [Railscasts](http://railscasts.com) series from Ryan Bate’s and Michael Hartl’s [Rails Tutorial](http://railstutorial.org) helped me get to grips with Ruby on Rails early in 2008, whilst David Travis’ [The Ultimate Guide to Usability](https://www.udemy.com/ultimate-guide-to-ux/?dtcode=IWS3EOW2ETz6) helped me out greatly when I eventually made the jump from being a Web Developer to a UX Designer and Developer. 
 
-<img src="/assets/images/posts/swift-resources.png" alt="collection of swift language resources"
-	title="collection of swift language resources'" width="621" height="186" class='centred' />
-  
+<div class='left'>
+	<img src="/assets/images/posts/swift-resources.png" alt="collection of swift language resources"
+		title="collection of swift language resources'" width="621" height="186" class='centred' />
+</div>
+
 _Just a few of my favourite resources for learning Swift_
 
 To learn Swift I started with a course I found on Udemy [Swift - Learn Apple’s New Programming Language Step-by-Step](https://www.udemy.com/swift-learn-apples-new-programming-language-by-examples/?dtcode=SfdOVtx2ETFZ) this was a great first step because I really helped my build upon the foundation knowledge of Swift I had gained from playing with Strings, Arrays and Dictionaries in the playground. While running through this course I had the nagging feeling that while I was improving my understanding of the concepts of Swift, I was not fully grasping how I would transfer these skills into an iOS app itself. This led me to my next Udemy purchase, Rob Percival’s excellent [The complete iOS8 and Swift Course](https://www.udemy.com/complete-ios-developer-course/?dtcode=LbIQSFm2ETFZ). This course helped me with the practicalities of building apps, in fact, throughout this course you build 15 apps and are shown how to submit to the app store. I regularly find myself still going back to certain chapters of this course to double check some of my code.
