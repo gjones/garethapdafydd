@@ -1,0 +1,23 @@
+$gold: #8B712E;
+$charcoal: #454545;
+$midGrey: #B6B6B6;
+$light: #EAEAEA;
+$white: #FFFFFF;
+$black: #000000;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+  'Arial', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

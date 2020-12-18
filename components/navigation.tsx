@@ -1,29 +1,69 @@
-//import Link from 'next/link'
 import ActiveLink from '../components/activeLink'
+import useDarkMode from 'use-dark-mode'
+import styled from 'styled-components'
 import styles from '@styles/modules/navigation.module.scss'
+import { FlexListItem } from './utils/grid'
+
+const Header = styled.header`
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: ${(props) => props.theme.sizes.sizeXL};
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    padding: ${(props) => props.theme.sizes.sizeS};
+  }
+`
+
+const NavList = styled.ul`
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+`
+
+const NavLink = styled.a`
+  color: ${(props) => props.theme.text.default};
+  padding: ${(props) => props.theme.sizes.baseSize};
+  text-decoration: none;
+  &:hover,
+  &.active {
+    color: ${(props) => props.theme.text.link};
+    cursor: pointer;
+  }
+`
 
 export default function Navigation() {
+  const darkMode = useDarkMode(true)
+
   return (
-    <header className={styles.header}>
+    <Header>
       <nav>
-        <ul className={styles.list}>
-          <li className={styles.item}>
+        <NavList>
+          <FlexListItem>
             <ActiveLink activeClassName={styles.active} href='/'>
-              <a className={styles.link}>Home</a>
+              <NavLink>Home</NavLink>
             </ActiveLink>
-          </li>
-          <li className={styles.item}>
+          </FlexListItem>
+          <FlexListItem>
             <ActiveLink activeClassName={styles.active} href='/projects'>
-              <a className={styles.link}>Projects</a>
+              <NavLink>Projects</NavLink>
             </ActiveLink>
-          </li>
-          <li className={styles.item}>
+          </FlexListItem>
+          <FlexListItem>
             <ActiveLink activeClassName={styles.active} href='/thoughts'>
-              <a className={styles.link}>Thoughts</a>
+              <NavLink>Thoughts</NavLink>
             </ActiveLink>
-          </li>
-        </ul>
+          </FlexListItem>
+          <FlexListItem>
+            <button onClick={darkMode.enable}>DARK MODE</button>
+            <button onClick={darkMode.disable}>LIGHT MODE</button>
+          </FlexListItem>
+        </NavList>
       </nav>
-    </header>
+    </Header>
   )
 }
