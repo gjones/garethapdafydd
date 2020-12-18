@@ -35,8 +35,8 @@ const defaultTheme = {
     largeScreens: `(min-width : 64em)`,
     mediumScreens: `(max-width : 64em)`,
     smallScreens: `(max-width : 47.5em)`,
-  }
-};
+  },
+}
 
 const light = {
   background: defaultTheme.colours.white,

@@ -5,7 +5,7 @@ export const DarkModeButton = styled.svg`
   height: 1.4rem;
   width: 1.4rem;
   margin-left: ${(props) => props.theme.sizes.sizeM};
-  
+
   &:hover {
     cursor: pointer;
     color: ${(props) => props.theme.button.sunDarkModeHoverColour};

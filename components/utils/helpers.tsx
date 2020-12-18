@@ -6,7 +6,7 @@ export const SocialLogo = styled.svg`
   height: 1.4rem;
   width: 1.4rem;
   vertical-align: baseline;
-  
+
   &:hover {
     cursor: pointer;
     opacity: 1;
