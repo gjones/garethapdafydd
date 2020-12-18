@@ -257,7 +257,7 @@ export default function Projects() {
           <SpacerXL />
           <SpacerM />
           <ProjectImage
-            src='/assets/images/projects/lpl-screenshot2.png'
+            src='/assets/images/projects/lpl-screenshot.png'
             alt='screenshot finance'
           />
         </FlexSplitR>
