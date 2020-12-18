@@ -81,28 +81,34 @@ export default class Title extends Component<Props> {
     if (profileImage) {
       headerContent = (
         <Fragment>
-          <FlexGroup>
+          <FlexItem>
             <ProfileImage>
               <img
                 src='/assets/images/gareth-colour.jpg'
                 alt='Gareth ap Dafydd'
               />
             </ProfileImage>
-            <FlexItem>
-              <SmallHeadlineStyle>{smallHeadline}</SmallHeadlineStyle>
-              <LargeHeadlineStyle>{pageHeadline}</LargeHeadlineStyle>
-            </FlexItem>
-          </FlexGroup>
+          </FlexItem>
+          <FlexItem>
+            <SmallHeadlineStyle>{smallHeadline}</SmallHeadlineStyle>
+            <LargeHeadlineStyle>{pageHeadline}</LargeHeadlineStyle>
+          </FlexItem>
         </Fragment>
       )
     } else {
       headerContent = (
         <Fragment>
-          <SmallHeadlineStyle>{smallHeadline}</SmallHeadlineStyle>
-          <LargeHeadlineStyle>{pageHeadline}</LargeHeadlineStyle>
+          <FlexItem>
+            <SmallHeadlineStyle>{smallHeadline}</SmallHeadlineStyle>
+            <LargeHeadlineStyle>{pageHeadline}</LargeHeadlineStyle>
+          </FlexItem>
         </Fragment>
       )
     }
-    return <Fragment>{headerContent}</Fragment>
+    return (
+      <Fragment>
+        <FlexGroup>{headerContent}</FlexGroup>
+      </Fragment>
+    )
   }
 }

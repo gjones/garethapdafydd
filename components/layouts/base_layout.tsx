@@ -26,7 +26,7 @@ const Container = styled.main`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  
   .main {
     flex: 1 1 auto;
     width: 70%;

@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.light-mode, .dark-mode {
+  opacity: 0;
+  animation: slowAppearance 0.2s ease-in forwards;
+}
+
+@keyframes slowAppearance {
+  to {
+    opacity: 1;
+  }
+}
