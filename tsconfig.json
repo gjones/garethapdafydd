@@ -16,9 +16,7 @@
       "@thoughts/*": ["pages/thoughts/*"],
       "@styles/*": ["styles/*"]
     }, 
-    "types": [
-      "typePatches"
-    ],        
+    //"types": [],        
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true 
     ,
