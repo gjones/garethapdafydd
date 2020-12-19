@@ -142,8 +142,10 @@ export default function Projects() {
             5, and the web interface is using Rails. There&lsquo;s a marketing
             website and blog available at{' '}
             <a href='https://fightscores.co'>fightscores.co</a>, the app itself
-            is available to download for free on the App Store. To read more
-            about this release,{' '}
+            is available to download for free on the App Store.
+          </DefaultText>
+          <DefaultText>
+            To read more about this release,{' '}
             <a href='/thoughts/new-look-fight-scores'>view this blog post</a>.
           </DefaultText>
           <FlexGroup>
