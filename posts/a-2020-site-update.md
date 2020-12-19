@@ -5,7 +5,7 @@ date: '2020-12-18'
 abstract: After a long year, I decided to take a decent amount of time off work over this upcoming Christmas period. While it’s important for me to get away from the computer to give myself a chance to recharge, I also can’t help but start a few side projects.
 ---
 
-After a long year, I decided to take a decent amount of time off work over this upcoming Christmas period. While it’s important for me to get away from the computer to give myself a chance to recharge, I also can’t help but start a few side projects.
+After a long year, I decided to take a decent amount of time off work over this upcoming Christmas period. While it’s important for me to get away from the computer and give myself a chance to recharge, I also can’t help but tackle a few side projects.
 
 The best place to start was my long, neglected personal website, I had an idea it was getting a little old in the tooth, but it was only when I found [this blog post](https://garethdjones.com/thoughts/rebuilding-my-personal-site) that I realised the last update had been back in 2013. In that post, I outline how I created the site using ruby and middleman, you can still find the [code here](https://github.com/gjones/GarethDJones). Time has moved on and I like to change up my tech stack every now and again so this time I opted for React and Nextjs.
 
