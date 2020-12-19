@@ -16,14 +16,15 @@ const PostContainer = styled.div`
     color: ${(props) => props.theme.text.light};
   }
 
-  p, ul {
+  p,
+  ul {
     color: ${(props) => props.theme.text.default};
     line-height: 1.5;
     max-width: 85%;
 
     a {
-      color: ${(props) => props.theme.text.link}
-  
+      color: ${(props) => props.theme.text.link};
+
       &:hover {
         text-decoration: underline;
       }
