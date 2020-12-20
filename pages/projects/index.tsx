@@ -1,6 +1,7 @@
 import Page from '@layouts/base_layout'
 import {
   SpacerM,
+  SpacerL,
   SpacerXL,
   HorizontalDivide,
 } from '../../components/utils/spacers'
@@ -156,45 +157,50 @@ export default function Projects() {
         </FlexSplitL>
 
         <FlexSplitR>
-          <StarFlexGroup>
-            <FlexItem>
-              <StarImage
-                src='/assets/images/projects/star-filled.png'
-                alt='star filled'
-              />
-            </FlexItem>
-            <FlexItem>
-              <StarImage
-                src='/assets/images/projects/star-filled.png'
-                alt='star filled'
-              />
-            </FlexItem>
-            <FlexItem>
-              <StarImage
-                src='/assets/images/projects/star-filled.png'
-                alt='star filled'
-              />
-            </FlexItem>
-            <FlexItem>
-              <StarImage
-                src='/assets/images/projects/star-filled.png'
-                alt='star filled'
-              />
-            </FlexItem>
-            <FlexItem>
-              <StarImage
-                src='/assets/images/projects/star-half.png'
-                alt='star half'
-              />
-            </FlexItem>
-            <FlexItem>
-              <StarText>100+ ratings</StarText>
-            </FlexItem>
-          </StarFlexGroup>
-          <ProjectImage
-            src='/assets/images/projects/fight-scores.png'
-            alt='introduction-photo'
-          />
+          <SpacerM />
+          <FlexItem>
+            <StarFlexGroup>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-half.png'
+                  alt='star half'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarText>100+ ratings</StarText>
+              </FlexItem>
+            </StarFlexGroup>
+          </FlexItem>
+          <FlexItem>
+            <ProjectImage
+              src='/assets/images/projects/fight-scores.png'
+              alt='introduction-photo'
+            />
+          </FlexItem>
         </FlexSplitR>
       </Project>
 
