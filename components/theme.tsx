@@ -32,8 +32,8 @@ const defaultTheme = {
     fontBold: `bold`,
   },
   mediaQueries: {
-    largeScreens: `(min-width : 64em)`,
-    mediumScreens: `(max-width : 64em)`,
+    largeScreens: `(min-width : 70em)`,
+    mediumScreens: `(max-width : 70em)`,
     smallScreens: `(max-width : 47.5em)`,
   },
 }
