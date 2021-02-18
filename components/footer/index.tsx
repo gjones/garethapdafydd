@@ -42,7 +42,7 @@ export default function Navigation() {
         </FlexItemCentred>
         <FlexItemCentred>
           <a
-            href='https://www.linkedin.com/in/gdjones83/'
+            href='mailto:me@garethdjones.com?subject=Inquiry from garethdjones.com'
             target='_blank'
             rel='noreferrer'>
             <LogoEnvelope />

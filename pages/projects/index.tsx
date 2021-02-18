@@ -1,7 +1,6 @@
 import Page from '@layouts/base_layout'
 import {
   SpacerM,
-  SpacerL,
   SpacerXL,
   HorizontalDivide,
 } from '../../components/utils/spacers'
