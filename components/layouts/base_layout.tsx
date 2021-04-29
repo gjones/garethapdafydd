@@ -78,6 +78,11 @@ export default class Page extends Component<Props> {
             color='#5bbad5'
           />
           <meta name='theme-color' content='#ffffff'></meta>
+          <script
+            async
+            defer
+            data-domain='garethdjones.com'
+            src='https://plausible.io/js/plausible.js'></script>
         </Head>
 
         <Container>
