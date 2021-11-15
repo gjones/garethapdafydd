@@ -31,6 +31,13 @@ const PostContainer = styled.div`
     }
   }
 
+  pre {
+    background: ${(props) => props.theme.code.background};
+    color: ${(props) => props.theme.code.text};
+    padding: ${(props) => props.theme.sizes.sizeM};
+    border-radius: ${(props) => props.theme.sizes.sizeS};
+  }
+
   li {
     margin: ${(props) => props.theme.sizes.sizeM} 0;
   }

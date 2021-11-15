@@ -55,6 +55,10 @@ const light = {
     moonDarkModeColour: defaultTheme.colours.midGrey,
     moonDarkModeHoverColour: defaultTheme.colours.charcoal,
   },
+  code: {
+    background: defaultTheme.colours.charcoal,
+    text: defaultTheme.colours.white,
+  },
   divide: defaultTheme.colours.light,
   // ...
 }
@@ -75,6 +79,10 @@ const dark = {
     sunDarkModeHoverColour: defaultTheme.colours.midGrey,
     moonDarkModeColour: defaultTheme.colours.opaqueGold,
     moonDarkModeHoverColour: defaultTheme.colours.lightGold,
+  },
+  code: {
+    background: defaultTheme.colours.charcoal,
+    text: defaultTheme.colours.white,
   },
   divide: defaultTheme.colours.charcoal,
   // ...
