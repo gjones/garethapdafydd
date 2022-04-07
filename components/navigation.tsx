@@ -6,47 +6,6 @@ import { FlexGroup, FlexItem, FlexListItem } from './utils/grid'
 import GlyphSun from './glyphs/glyph_sun'
 import GlyphMoon from './glyphs/glyph_moon'
 
-const Header = styled.header`
-  display: flex;
-  align-items: stretch;
-  flex-grow: 1;
-  justify-content: flex-end;
-  padding: ${(props) => props.theme.sizes.sizeXL} 0;
-
-  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    padding: ${(props) => props.theme.sizes.sizeS};
-    justify-content: space-between;
-  }
-`
-
-const NavList = styled.ul`
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-
-  flex-grow: 1;
-
-  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    flex-wrap: wrap;
-  }
-`
-
-const NavLink = styled.a`
-  color: ${(props) => props.theme.text.default};
-  padding: ${(props) => props.theme.sizes.baseSize};
-  text-decoration: none;
-  &:hover,
-  &.active {
-    color: ${(props) => props.theme.text.link};
-    cursor: pointer;
-  }
-
-  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    padding: 0;
-  }
-`
 export default function Navigation() {
   const darkMode = useDarkMode(true)
 
@@ -88,3 +47,45 @@ export default function Navigation() {
     </Header>
   )
 }
+
+const Header = styled.header`
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: ${(props) => props.theme.sizes.sizeXL} 0;
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    padding: ${(props) => props.theme.sizes.sizeS};
+    justify-content: space-between;
+  }
+`
+
+const NavList = styled.ul`
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  flex-grow: 1;
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    flex-wrap: wrap;
+  }
+`
+
+const NavLink = styled.a`
+  color: ${(props) => props.theme.text.default};
+  padding: ${(props) => props.theme.sizes.baseSize};
+  text-decoration: none;
+  &:hover,
+  &.active {
+    color: ${(props) => props.theme.text.link};
+    cursor: pointer;
+  }
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    padding: 0;
+  }
+`

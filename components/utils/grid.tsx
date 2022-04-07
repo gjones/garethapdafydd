@@ -35,10 +35,10 @@ export const FlexListItem = styled.li`
   flex-grow: 0;
   flex-basis: auto;
   margin: ${(props) => props.theme.sizes.sizeM}
-    ${(props) => props.theme.sizes.sizeL};
+    ${(props) => props.theme.sizes.sizeS};
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     margin: ${(props) => props.theme.sizes.sizeM}
-      ${(props) => props.theme.sizes.sizeS};
+      ${(props) => props.theme.sizes.sizeL};
   }
 `

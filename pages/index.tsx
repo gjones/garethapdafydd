@@ -58,7 +58,7 @@ export default function Home() {
       title='Gareth ap Dafydd | Home'
       description='The online home of Gareth Dafydd Jones. Design and Developer'
       smallHeadline='Gareth ap Dafydd'
-      largeHeadline='Design lead at Elastic.'
+      largeHeadline='Design lead at ClickHouse.'
       largeHeadline2='Independent iOS app developer'
       profileImage={true}>
       <SpacerXL />
