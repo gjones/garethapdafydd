@@ -21,7 +21,7 @@ export default function Navigation() {
       <FlexGroupCentred>
         <FlexItemCentred>
           <a
-            href='https://www.linkedin.com/in/gdjones83/'
+            href='https://www.linkedin.com/in/garethapdafydd/'
             target='_blank'
             rel='noreferrer'>
             <LogoLinkedIn />
