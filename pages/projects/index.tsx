@@ -211,23 +211,23 @@ export default function Projects() {
         <FlexSplitL>
           <ProjectTitle>Elastic Cloud</ProjectTitle>
           <DefaultText>
-            Since 2016, I&lsquo;ve been leading the design efforts on Elastic
-            Cloud, the official hosted offering of Elasticsearch.
+            Between 2016-2020, I led the design efforts on Elastic Cloud, the
+            official hosted offering of Elasticsearch.
           </DefaultText>
           <DefaultText>
-            I joined the Cloud team early on and performed very much as the lone
-            designer-developer, working to identify and produce solutions to UI
-            issues while helping out the UI devs in the React codebase.
-            Following an organisation reshuffle, I&lsquo;ve been working to
-            establish and build out a design team in Cloud. While I still spend
-            a lot of time directly contributing to projects, I also provide
-            longer-term product vision and direction as well as guidance to our
-            ever growing set of designers.
+            I joined Elastic when the Cloud team was in it&lsquo;s infancy and
+            performed very much as the lone designer-developer, working to
+            identify and produce solutions to UI issues while helping out the UI
+            devs in the React codebase. Following an organisation reshuffle, I
+            worked to establish and build out a design team in Cloud. While
+            still spending a lot of time directly contributing to projects, I
+            also provided longer-term product vision and direction as well as
+            guidance to the ever growing set of designers.
           </DefaultText>
           <DefaultText>
-            As the team has become more mature, we&lsquo;ve been able to
-            increase our user testing efforts and have used that to successfully
-            position design further upstream in our project.
+            As the team became more mature, we were also able to increase our
+            user testing efforts and that helped us successfully position design
+            further upstream in projects.
           </DefaultText>
         </FlexSplitL>
 

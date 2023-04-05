@@ -31,14 +31,15 @@ export default function Navigation() {
           <FlexListItem>
             <FlexGroup>
               <FlexItem>
-                <a onClick={darkMode.disable}>
-                  <GlyphSun />
-                </a>
-              </FlexItem>
-              <FlexItem>
-                <a onClick={darkMode.enable}>
-                  <GlyphMoon />
-                </a>
+                {darkMode.value ? (
+                  <a onClick={darkMode.disable}>
+                    <GlyphSun />
+                  </a>
+                ) : (
+                  <a onClick={darkMode.enable}>
+                    <GlyphMoon />
+                  </a>
+                )}
               </FlexItem>
             </FlexGroup>
           </FlexListItem>
@@ -56,7 +57,7 @@ const Header = styled.header`
   padding: ${(props) => props.theme.sizes.sizeXL} 0;
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-    padding: ${(props) => props.theme.sizes.sizeS};
+    padding: ${(props) => props.theme.sizes.sizeS} 0;
     justify-content: space-between;
   }
 `
