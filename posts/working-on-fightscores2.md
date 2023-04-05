@@ -15,8 +15,6 @@ I'm happy to say that I believe I've found that solution and work on Fight Score
 
 The original Fight Scores will continue to be available in the app store for the forseeable future until Fight Scores 2 can be completed and released. If you're interested in being a beta user please contact me on twitter at [@fightscoresapp](https://twitter.com/fightscoresapp). 
 
-<div class='left'>
-  <img src="/assets/images/posts/fightscore-ipad.png" alt="Fight Scores 2 on the iPad" title="Fight Scores 2 on the iPad" width="600" height="425" class='centred' />
-</div>
+*![Fight Scores 2 on the iPad](/assets/images/posts/fightscore-ipad.png "Fight Scores 2 on the iPad")*
 
 _FightScores 2 running on the iPad._

@@ -15,7 +15,4 @@ As an independent app developer I'm very excited about this announcement, I've c
 
 If you’re interested in more information on this announcement, [Under the radar]('https://www.relay.fm/radar/64') has an excellent 30 minute summary.
 
-<div class='centred'>
-<img src='/assets/images/posts/skstorereviewcontroller@2x.png' alt='Fight Scores Reviews'
-		title="Fight Scores Reviews" height='540px' >
-</div>
+*![Fight Scores Reviews](/assets/images/posts/skstorereviewcontroller@2x.png "Fight Scores Reviews")*

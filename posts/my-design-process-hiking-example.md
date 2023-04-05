@@ -21,10 +21,8 @@ _The aim of this page is to supply the user all of the information on a particul
 
 I theorized that a user would require the following information: trail name, trail address, visual feedback on rough route and location (in the form of a map), description, distance, estimated time, difficulty level and potentially the elevation level. The additional social elements would also prove handy: check ins, star rating, comments and photos.
 
-<div class='left'>
-	<img src="/assets/images/posts/hiking-app-sketch.png" alt="Initial Sketch of Page Layout"
-		title="Initial Sketch of Page Layout" width="600" height="600" class='centred' />
-</div>
+*![Initial Sketch of Page Layout](/assets/images/posts/hiking-app-sketch.png "Initial Sketch of Page Layout")*
+
 
 _Early sketch work_
 
@@ -36,17 +34,13 @@ For mobile I design at @2x and using the of the dimensions of the iPhone 5/5S as
 
 It’s worth noting that at this stage I do not introduce exact measurements or font sizes, things continue to change and evolve in a design throughout the process and I like to allow myself the freedom to let that happen as I see fit. I use the wireframing stage for basic layouts and also because while creating them I’m often getting more visual ideas of how the final design will look, I find it somewhat therapeutic.
 
-<div class='left'>
-	<img src="/assets/images/posts/wireframing-in-sketchapp.png" alt="Wireframing websites in SketchApp" title="Wireframing websites in SketchApp" width="1082" height="880" class='centred' />
-</div>
+*![Wireframing websites in SketchApp](/assets/images/posts/wireframing-in-sketchapp.png "Wireframing websites in SketchApp")*
 
 _Basic Mobile and Desktop Wireframe_
 
 My next step is to begin filling out the design, for this, at least to begin with, I will stay in SketchApp. It is now that I generally make decisions on the ‘feel’ of the design, will it be light and spacious or dark and broody. Which font set shall I use? What colour should the links and buttons be? It’s at this stage that many big decisions are made. Often, once I have a sense of the direction I’m looking for, I waste no time in switching to the browser and complete the design as I go. For the purposes of this example however, I stayed in SketchApp to finish up.
 
-<div class='left'>
-	<img src="/assets/images/posts/sugar-loaf-mountain-trail.png" alt="Near complete design of trail page" title="Near complete design of trail page" width="720" height="768" class='centred' />
-</div>
+*![Near complete design of trail page](/assets/images/posts/sugar-loaf-mountain-trail.png "Near complete design of trail page")*
 
 _Near Complete Design, click to see the [full size version](/images/articles/Sugar-Loaf-Mountain-Trail@2x.png)_
 

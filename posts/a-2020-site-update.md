@@ -9,9 +9,7 @@ After a long year, I decided to take a decent amount of time off work over this 
 
 The best place to start was my long, neglected personal website, I had an idea it was getting a little old in the tooth, but it was only when I found [this blog post](https://garethdjones.com/thoughts/rebuilding-my-personal-site) that I realised the last update had been back in 2013. In that post, I outline how I created the site using ruby and middleman, you can still find the [code here](https://github.com/gjones/GarethDJones). Time has moved on and I like to change up my tech stack every now and again so this time I opted for React and Nextjs.
 
-<div class='left'>
-	<img src="/assets/images/posts/2020-redesign.png" alt='Redesign of the 2020 website' title="Redesign of the 2020 website" />
-</div>
+**![Redesign of the 2020 website](/assets/images/posts/2020-redesign.png "Redesign of the 2020 website")**
 
 I use React every day at work so it made sense to go in this direction. I was interested in trying out styled components which I hadn’t used before.
 

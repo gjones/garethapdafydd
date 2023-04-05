@@ -9,10 +9,7 @@ When Apple announced their new programming language, Swift in August 2014, I tho
 
 As Swift was a brand new language, initially there were not many places to get started with it. I, like thousands of others, immediately downloaded the official [Swift Programming Language](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11)book from the iBooks store and set about trying out the examples in the new playground feature of the latest Xcode beta. Running through each of these tutorials were ok but I quickly found that I needed more information around each topic to get a wider understanding of the key concepts. I’ve always been someone that learned my development skills initially through the medium of videos. I remember watching Andy Clarke and Molly E. Holzschlag's [CSS course on Lynda.com](http://www.lynda.com/CSS-tutorials/for-designers/216-2.html) back in 2006 when my company at the time were looking to move beyond a table-based website created in Dreamweaver. The incredible [Railscasts](http://railscasts.com) series from Ryan Bate’s and Michael Hartl’s [Rails Tutorial](http://railstutorial.org) helped me get to grips with Ruby on Rails early in 2008, whilst David Travis’ [The Ultimate Guide to Usability](https://www.udemy.com/ultimate-guide-to-ux/?dtcode=IWS3EOW2ETz6) helped me out greatly when I eventually made the jump from being a Web Developer to a UX Designer and Developer. 
 
-<div class='left'>
-	<img src="/assets/images/posts/swift-resources.png" alt="collection of swift language resources"
-		title="collection of swift language resources'" width="621" height="186" class='centred' />
-</div>
+**![collection of swift language resources](/assets/images/posts/swift-resources.png "collection of swift language resources")**
 
 _Just a few of my favourite resources for learning Swift_
 

@@ -11,9 +11,7 @@ Before I get into the apps - I like to keep my background wallpaper light and si
 
 ###	First Screen
 
-<div class='left'>
-  <img src="/assets/images/posts/gareth-screen1.png" alt="Gareths iPhone Homescreen" title="Gareths iPhone Homescreen" width="640" height="1136" class='ios-screenshot' />
-</div>
+*![Gareths iPhone Homescreen](/assets/images/posts/gareth-screen1.png "Gareths iPhone Homescreen")*
 
 _Springboard page 1_
 
@@ -23,9 +21,8 @@ The second row is dedicated to reading and writing, Evernote saves my thoughts w
 
 ### Second Screen
 
-<div class='left'>
-  <img src="/assets/images/posts/gareth-screen2.png" alt="Gareths iPhone second Page" title="Gareths iPhone Second page" width="640" height="1136" class='ios-screenshot' />
-</div>
+*![Gareths iPhone Second page](/assets/images/posts/gareth-screen2.png "Gareths iPhone Second page")*
+
 
 _Springboard page 2_
 
@@ -38,9 +35,7 @@ One of my favourite new discoveries kicks off the forth row,
 
 ### Third Screen
 
-<div class='left'>
-  <img src="/assets/images/posts/gareth-screen3.png" alt="Gareths iPhone third Page" title="Gareths iPhone Third page" width="640" height="1136" class='ios-screenshot' />
-</div>
+*![Gareths iPhone Third page](/assets/images/posts/gareth-screen3.png "Gareths iPhone Third page")*
 
 _Springboard page 3_
 

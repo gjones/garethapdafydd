@@ -17,9 +17,6 @@ As a sidenote, this post was written and deployed on my iPad. Panic's excellent 
  
 Update: Most of my development work these days is done in Xcode using Swift, and if the rumours that [Apple are working on Xcode for iOS](http://daringfireball.net/linked/2015/11/12/ipad-pro-xcode) are true, then I will be a very happy man.
 
-<div class='left'>
-	<img src="/assets/images/posts/developing-ipad.png" alt="web development on my iPad"
-	title="web development on my iPad" width="768" height="576" class='centred' />
-</div>
+*![web development on my iPad](/assets/images/posts/developing-ipad.png "web development on my iPad")*
 
  _*it could be argued that it was indeed intentional._

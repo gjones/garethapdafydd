@@ -9,10 +9,7 @@ Recently I’ve found myself frustrated with the world of boxing. Not for the re
 
 No, the current reason that I'm particularly irked is due to the lack of an open database of fights, fighters and their records. In 5 minutes of searching google I found databases with Application Programming Interfaces (API) available for developers to build apps for almost every industry I could think of, beer, wine, football, sewing, birdwatching and of course multiple databases for MMA and the UFC.
 
-<div class='left'>
-	<img src="/assets/images/posts/different-apis.png" alt="Databases with Open APIs"
-		title="Databases with Open APIs" width="1000" height="827" />
-</div>
+*![Databases with Open APIs](/assets/images/posts/different-apis.png "Databases with Open APIs")*
 
 _Examples of website offering free &amp; paid access to databases with APIs_
 
@@ -32,7 +29,4 @@ Perhaps one day we'll have this, perhaps BoxRec has a change of heart, or perhap
 
 This article, or rant, was inspired by a boxing iOS app that I recently created, simply listing boxers, then linking to a page featuring more details, age, record, past fights etc. For now I created my own database from which to pull and this acts as a very basic example of what could be possible.
 
-<div class='left'>
-	<img src="/assets/images/posts/simple-boxing-app.png" alt="Simple Boxing iOS7 App"
-		title="Simple Boxing iOS7 App" width="671" height="611" class='centred' />
-</div>
+*![Simple Boxing iOS7 App](/assets/images/posts/simple-boxing-app.png "Simple Boxing iOS7 App")*

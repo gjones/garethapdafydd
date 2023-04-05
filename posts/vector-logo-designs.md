@@ -10,8 +10,8 @@ I just thought I'd share a couple of logo designs that I've been working on rece
 The font that I have used is called [AxeHandel](http://www.dafont.com/axehandel.font'), I feel that it's clear and readible while managing to give a nod to the old-timey boxing logos and posters that I grew up with. I tried gloves as the central focal point but in the end decided that the boxer silhouttes fitted a little better.
 
 I think I'm going to use the third option, (center, bottom). Do you agree? Let me know your thoughts at [@garethapdafydd](http://twitter.com/garethapdafydd).
-
-<img src="/assets/images/posts/knockoutDB-shield-small.png" alt="3 versions of knockoutDB logo" title="3 versions of knockoutDB logo" width="600" height="575" class='centred' />
  
+ *![3 versions of knockoutDB log](/assets/images/posts/knockoutDB-shield-small.png "3 versions of knockoutDB log")*
+
 
 _Click to see the [larger version](/assets/images/posts/knockoutDB-shield.png)_

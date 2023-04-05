@@ -42,16 +42,24 @@ const PostContainer = styled.div`
     margin: ${(props) => props.theme.sizes.sizeM} 0;
   }
 
-  .left {
+  .left,
+  strong {
     display: flex;
     align-items: flex-start;
     margin: ${(props) => props.theme.sizes.sizeXL} 0;
     img {
       max-width: 85%;
     }
+
+    @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+      img {
+        max-width: 100%;
+      }
+    }
   }
 
-  .centred {
+  .centred,
+  em {
     display: flex;
     align-items: center;
     justify-content: center;
