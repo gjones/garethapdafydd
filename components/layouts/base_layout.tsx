@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, ReactNode } from 'react'
 import Head from 'next/head'
 import Navigation from '../navigation'
 import Footer from '../footer'
@@ -13,6 +13,7 @@ type Props = {
   largeHeadline: string
   largeHeadline2?: string
   profileImage?: boolean
+  children: ReactNode
 }
 
 const Wrapper = styled.section`

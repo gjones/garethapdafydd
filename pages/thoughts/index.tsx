@@ -19,7 +19,7 @@ const PostList = styled.div`
 `
 
 const BlogPost = styled.div`
-  max-width: 85%;
+  max-width: 94%;
   cursor: pointer;
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
