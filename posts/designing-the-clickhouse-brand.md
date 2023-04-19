@@ -2,10 +2,10 @@
 title: Designing the ClickHouse brand
 description: A brief summary of how I led the effort to rebrand ClickHouse.
 date: '2023-04-19'
-abstract: I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we released a bold new brand that we believe represents the company and will serve as a strong foundation going forward.
+abstract: I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website.
 ---
 
-I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we released a bold new brand that we believe represents the company and will serve as a strong foundation going forward.
+I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website. I wanted to take a moment to share a little bit about how we reached this milestone.
 
 *![The new ClickHouse brand colours](/assets/images/posts/ch-logo.gif "The new ClickHouse brand colours")*
 
@@ -43,10 +43,13 @@ We toned down the initial website release a little, opting for a darker appearan
 
 The general vibe is a bit of an '80s throwback with diagonal shapes and bold lettering. It's distinctive and we feel it evokes an emotional response, making it more likely to be memorable to those who encounter it. We're learning more about this brand every day as we create internal tools and conference materials, and we're excited to see how this evolves.
 
-Producing a new brand was a massive undertaking, and accomplishing this with a small team in such a short amount of time is still quite staggering to me. Special thanks go to Justin, who I met with everyday and was instrumental in the creative process, and to Cristina and Daniel, who’s patience and hard work bringing these ideas to life cannot be understated.
+*![Example blog images](/assets/images/posts/ch-blog-examples.png "Example blog images")*
+
+Producing a new brand was a massive undertaking, and accomplishing this with a small team in such a short amount of time is still quite staggering to me. Special thanks go to [Justin]('https://twitter.com/defaultalive'), who I met with everyday and was instrumental in the creative process, and to Cristina and Daniel, who’s patience and hard work bringing these ideas to life cannot be understated.
 
 Since launch, the support we received from colleagues across the company has been genuinely inspiring, and the reception the new brand has garnered, both internally and externally, has been overwhelmingly positive.
 
 The new website was released in early April and can be visited at ClickHouse.com. The conference experience already debuted at AWS Stockholm, and the updated product UI will be coming later in 2023.
 
 *![The new ClickHouse homepage](/assets/images/posts/ch-homepage.png "The new ClickHouse homepage")*
+
