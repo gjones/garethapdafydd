@@ -29,6 +29,10 @@ const PostContainer = styled.div`
         text-decoration: underline;
       }
     }
+
+    @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+      max-width: 98%;
+    }
   }
 
   pre {

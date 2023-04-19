@@ -2,7 +2,7 @@ import ActiveLink from './utils/activeLink'
 import useDarkMode from 'use-dark-mode'
 import styled from 'styled-components'
 import styles from '@styles/modules/navigation.module.scss'
-import { FlexGroup, FlexItem, FlexListItem } from './utils/grid'
+import { FlexListItem } from './utils/grid'
 import GlyphSun from './glyphs/glyph_sun'
 import GlyphMoon from './glyphs/glyph_moon'
 
@@ -29,19 +29,15 @@ export default function Navigation() {
             </ActiveLink>
           </FlexListItem>
           <FlexListItem>
-            <FlexGroup>
-              <FlexItem>
-                {darkMode.value ? (
-                  <a onClick={darkMode.disable}>
-                    <GlyphSun />
-                  </a>
-                ) : (
-                  <a onClick={darkMode.enable}>
-                    <GlyphMoon />
-                  </a>
-                )}
-              </FlexItem>
-            </FlexGroup>
+            {darkMode.value ? (
+              <a onClick={darkMode.disable}>
+                <GlyphSun />
+              </a>
+            ) : (
+              <a onClick={darkMode.enable}>
+                <GlyphMoon />
+              </a>
+            )}
           </FlexListItem>
         </NavList>
       </nav>
@@ -73,6 +69,18 @@ const NavList = styled.ul`
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     flex-wrap: wrap;
+
+    li {
+      margin: 0.75rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      svg {
+        width: 20px;
+      }
+    }
   }
 `
 
@@ -88,5 +96,6 @@ const NavLink = styled.a`
 
   @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
     padding: 0;
+    }
   }
 `

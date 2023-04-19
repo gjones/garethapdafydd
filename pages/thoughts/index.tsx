@@ -20,6 +20,11 @@ const PostList = styled.div`
 
 const BlogPost = styled.div`
   max-width: 85%;
+  cursor: pointer;
+
+  @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+    max-width: 98%;
+  }
 `
 
 const BlogDate = styled.h4`
