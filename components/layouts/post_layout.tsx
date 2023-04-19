@@ -20,7 +20,7 @@ const PostContainer = styled.div`
   ul {
     color: ${(props) => props.theme.text.default};
     line-height: 1.5;
-    max-width: 85%;
+    max-width: 94%;
 
     a {
       color: ${(props) => props.theme.text.link};
