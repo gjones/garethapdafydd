@@ -72,9 +72,11 @@ Once you've confirmed your email address you'll be asked to create your service,
 
 *![Creating a ClickHouse Cloud service](/assets/images/posts/clickhouse/ch-create-service.png "Creating a ClickHouse Cloud service")*
 
-Once my service has been created, I click on the `Add data` tile and select the `File upload` option. Here I upload the `fights.csv` file that I created above. Viewing the metrics tab, I can now see that my data has been successfully ingested.
+Once my service has been created, I click on the `Add data` tile and select the `File upload` option. Here I upload the `fights.csv` file that I created above. ClickHouse Cloud will automatically detect the schema from your file, which is pretty cool. Viewing the metrics tab, I can now see that my data has been successfully ingested.
 
 *![Uploading a CSV into ClickHouse Cloud](/assets/images/posts/clickhouse/ch-file-upload.png "Uploading a CSV into ClickHouse Cloud")*
+
+*![ClickHouse Cloud automatically creates a table schema](/assets/images/posts/clickhouse/ch-file-upload.png "ClickHouse Cloud automatically creates a table schema")*
 
 *![Data running into ClickHouse Cloud Service](/assets/images/posts/clickhouse/ch-data-in.png "Data running into ClickHouse Cloud Service")*
 
