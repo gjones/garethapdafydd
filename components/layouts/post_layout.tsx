@@ -35,15 +35,35 @@ const PostContainer = styled.div`
     }
   }
 
+  h3 {
+    margin-top: 3rem;
+  }
+
+  code {
+    background: ${(props) => props.theme.divide};
+    padding: ${(props) => props.theme.sizes.sizeXS};
+    border-radius: ${(props) => props.theme.sizes.sizeXS};
+    margin-top: -2px;
+  }
+
   pre {
     background: ${(props) => props.theme.code.background};
     color: ${(props) => props.theme.code.text};
     padding: ${(props) => props.theme.sizes.sizeM};
     border-radius: ${(props) => props.theme.sizes.sizeS};
+    code {
+      background: transparent;
+    }
+    @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+      code {
+        white-space: break-spaces;
+      }
+    }
   }
 
   li {
     margin: ${(props) => props.theme.sizes.sizeM} 0;
+    color: ${(props) => props.theme.text.default};
   }
 
   .left,
