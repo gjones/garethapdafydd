@@ -13,8 +13,8 @@ Here's a breakdown of the steps I'll take:
 
 1. Connect to the production database and copy the fights table into a CSV file
 2. Move that CSV file to my local disk
-4. Upload file to ClickHouse Cloud
-5. Query the dataset in the built-in SQL console
+3. Upload file to ClickHouse Cloud
+4. Query the dataset in the built-in SQL console
 
 
 ### 1. Connect to the production database and copy the fights table
@@ -90,5 +90,11 @@ Great, lets finish up by running a basic query on this data. We'll search for al
 *![Data running into ClickHouse Cloud Service](/assets/images/posts/clickhouse/ch-fight-query-border.png "Data running into ClickHouse Cloud Service")*
 
 So we've copied a table from a PostgreSQL database, converted it to CSV, inserted it into ClickHouse Cloud and run a basic query, all in just a few minutes. This is obviously not a meant as an indepth introduction to ClickHouse Cloud, if you are interested in that type of content, pop over to the [ClickHouse blog](https://clickhouse.com/blog/) where the team is doing a great job of writing up examples and common use cases.
+
+### Update: PostgreSQL function
+If you wish to skip the first three bullets and jump straight into querying live data from your database in the SQL console, you can do that by creating a ClickHouse Cloud account, and using the [PostgreSQL function](https://clickhouse.com/docs/en/sql-reference/table-functions/postgresql). Be aware, you may need to update the entries in your `pg_hba.conf` to allow ClickHouse Cloud to connect. 
+
+*![ClickHouse Cloud PostgreSQL function query](/assets/images/posts/clickhouse/ch-psql-function.png "ClickHouse Cloud PostgreSQL function query")*
+
 
 Thanks! 
