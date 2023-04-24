@@ -76,7 +76,7 @@ Once my service has been created, I click on the `Add data` tile and select the 
 
 *![Uploading a CSV into ClickHouse Cloud](/assets/images/posts/clickhouse/ch-file-upload.png "Uploading a CSV into ClickHouse Cloud")*
 
-*![ClickHouse Cloud automatically creates a table schema](/assets/images/posts/clickhouse/ch-file-upload.png "ClickHouse Cloud automatically creates a table schema")*
+*![ClickHouse Cloud automatically creates a table schema](/assets/images/posts/clickhouse/ch-create-table.png "ClickHouse Cloud automatically creates a table schema")*
 
 *![Data running into ClickHouse Cloud Service](/assets/images/posts/clickhouse/ch-data-in.png "Data running into ClickHouse Cloud Service")*
 
