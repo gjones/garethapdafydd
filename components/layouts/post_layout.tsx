@@ -37,6 +37,7 @@ const PostContainer = styled.div`
 
   h3 {
     margin-top: 3rem;
+    color: ${(props) => props.theme.text.default};
   }
 
   code {
