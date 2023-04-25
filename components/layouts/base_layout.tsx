@@ -13,6 +13,7 @@ type Props = {
   largeHeadline: string
   largeHeadline2?: string
   profileImage?: boolean
+  socialImage?: string
   children: ReactNode
 }
 
@@ -48,6 +49,7 @@ export default class Page extends Component<Props> {
       largeHeadline,
       largeHeadline2,
       profileImage,
+      socialImage,
     } = this.props
 
     return (
@@ -78,6 +80,20 @@ export default class Page extends Component<Props> {
             href='/assets/images/favicon/safari-pinned-tab.svg'
             color='#5bbad5'
           />
+
+          <meta
+            property='og:image'
+            content={
+              socialImage ? socialImage : '/assets/images/social-base.png'
+            }
+          />
+          <meta
+            property='twitter:image'
+            content={
+              socialImage ? socialImage : '/assets/images/social-base.png'
+            }
+          />
+          <meta name='twitter:card' content='summary_large_image' />
           <meta name='theme-color' content='#ffffff'></meta>
           <script
             async

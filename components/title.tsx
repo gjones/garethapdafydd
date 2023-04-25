@@ -57,12 +57,8 @@ export default class Title extends Component<Props> {
   }
 
   render() {
-    const {
-      smallHeadline,
-      largeHeadline,
-      largeHeadline2,
-      profileImage,
-    } = this.props
+    const { smallHeadline, largeHeadline, largeHeadline2, profileImage } =
+      this.props
 
     let pageHeadline
     let headerContent

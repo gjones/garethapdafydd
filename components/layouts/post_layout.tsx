@@ -6,6 +6,7 @@ type Props = {
   title: string
   description: string
   largeHeadline: string
+  socialImage: string
   children: any
 }
 
@@ -112,7 +113,8 @@ export default class PostPage extends Component<Props> {
         title={this.props.title}
         description={this.props.description}
         smallHeadline='Thoughts &amp; Musings'
-        largeHeadline={this.props.title}>
+        largeHeadline={this.props.title}
+        socialImage={this.props.socialImage}>
         <PostContainer>{this.props.children}</PostContainer>
       </Page>
     )

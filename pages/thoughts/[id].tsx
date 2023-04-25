@@ -13,7 +13,12 @@ export default function Post(props: Props): React.ReactElement {
     <PostPage
       title={props.postData.title}
       description={props.postData.description}
-      largeHeadline={props.postData.title}>
+      largeHeadline={props.postData.title}
+      socialImage={
+        props.postData.socialImage
+          ? props.postData.socialImage
+          : '/assets/images/social-base.png'
+      }>
       <br />
       <Date dateString={props.postData.date} />
       <br />

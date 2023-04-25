@@ -3,11 +3,12 @@ title: Designing the ClickHouse brand
 description: A brief summary of how I led the effort to rebrand ClickHouse.
 date: '2023-04-19'
 abstract: I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website.
+socialImage: '/assets/images/posts/clickhouse/social-designing-brand.png'
 ---
 
 I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website. I wanted to take a moment to share a little bit about how we reached this milestone.
 
-*![The new ClickHouse brand colours](/assets/images/posts/ch-logo.gif "The new ClickHouse brand colours")*
+*![The new ClickHouse brand colours](/assets/images/posts/clickhouse/ch-logo.gif "The new ClickHouse brand colours")*
 
 
 For me, this was a particularly interesting challenge. My professional background is mainly on the product side, and while I have been crafting brands for myself and others for over a decade, doing so for my employer proved to be a very different experience.
@@ -33,7 +34,7 @@ Understanding this and not wanting to limit our creativity by only examining oth
 
 And so started the period of numerous (and I mean numerous) iterations. We spent time thinking a lot about the core colour. Our industry is dominated by blue, and as previously mentioned, purple is the new black. There’s a couple of companies who have staked a solid claim to green, and red was undesirable to us for a multitude of reasons. All of this led us back to where we started, the colour that we in many ways already owned and the one that people already associated with us: Yellow. The problem was that the tone of yellow that we had used since our inception simply didn’t have the boldness or vibrancy that we were looking for.
 
-*![Updating the ClickHouse logo](/assets/images/posts/ch-old-vs-new-logo.png "Updating the ClickHouse logo")*
+*![Updating the ClickHouse logo](/assets/images/posts/clickhouse/ch-old-vs-new-logo.png "Updating the ClickHouse logo")*
 
 We lightened the shade and gave it a subtle touch of green that hinted at, without fully resembling, a garish neon sign.
 
@@ -43,13 +44,13 @@ We toned down the initial website release a little, opting for a darker appearan
 
 The general vibe is a bit of an '80s throwback with diagonal shapes and bold lettering. It's distinctive and we feel it evokes an emotional response, making it more likely to be memorable to those who encounter it. We're learning more about this brand every day as we create internal tools and conference materials, and we're excited to see how this evolves.
 
-*![Example blog images](/assets/images/posts/ch-blog-examples.png "Example blog images")*
+*![Example blog images](/assets/images/posts/clickhouse/ch-blog-examples.png "Example blog images")*
 
 Producing a new brand was a massive undertaking, and accomplishing this with a small team in such a short amount of time is still quite staggering to me. Special thanks go to [Justin]('https://twitter.com/defaultalive'), who I met with everyday and was instrumental in the creative process, and to Cristina and Daniel, who’s patience and hard work bringing these ideas to life cannot be understated.
 
 Since launch, the support we received from colleagues across the company has been genuinely inspiring, and the reception the new brand has garnered, both internally and externally, has been overwhelmingly positive.
 
-The new website was released in early April and can be visited at ClickHouse.com. The conference experience already debuted at AWS Stockholm, and the updated product UI will be coming later in 2023.
+The new website was released in early April and can be visited at <a href='https://clickhouse.com'>ClickHouse.com</a>. The conference experience already debuted at AWS Stockholm, and the updated product UI will be coming later in 2023.
 
-*![The new ClickHouse homepage](/assets/images/posts/ch-homepage.png "The new ClickHouse homepage")*
+*![The new ClickHouse homepage](/assets/images/posts/clickhouse/ch-homepage.png "The new ClickHouse homepage")*
 

@@ -3,6 +3,7 @@ title: Importing PostgreSQL data into ClickHouse Cloud
 description: Replicating Rails production data and importing it into ClickHouse Cloud.
 date: '2023-04-24'
 abstract:  I wanted to share a very quick and easy technique that I use to insert data from my iOS app, Fight Scores, into a ClickHouse Cloud service.
+socialImage: '/assets/images/posts/clickhouse/social-clickhouse-postgresql.png'
 ---
 
 Working at [ClickHouse](https://clickhouse.com/), I often find myself needing to insert data into cloud services to test user flows, reproduce bugs, or compare experiences. Although there is plenty of dummy data available on the web, I prefer using meaningful, real-world datasets.
