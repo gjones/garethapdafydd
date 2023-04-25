@@ -81,6 +81,12 @@ export default class Page extends Component<Props> {
             color='#5bbad5'
           />
 
+          <meta property='og:title' content={title} />
+          <meta property='og:description' content={description} />
+          <meta property='twitter:title' content={title} />
+          <meta property='twitter:description' content={description} />
+          <meta name='twitter:card' content='summary_large_image' />
+
           <meta
             property='og:image'
             content={
@@ -93,7 +99,6 @@ export default class Page extends Component<Props> {
               socialImage ? socialImage : '/assets/images/social-base.png'
             }
           />
-          <meta name='twitter:card' content='summary_large_image' />
           <meta name='theme-color' content='#ffffff'></meta>
           <script
             async
