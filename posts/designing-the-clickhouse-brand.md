@@ -1,7 +1,7 @@
 ---
 title: Designing the ClickHouse brand
 description: A brief summary of how I led the effort to rebrand ClickHouse.
-date: '2023-04-28'
+date: '2023-04-25'
 abstract: I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website.
 socialImage: '/assets/images/posts/clickhouse/social-designing-brand.png'
 ---

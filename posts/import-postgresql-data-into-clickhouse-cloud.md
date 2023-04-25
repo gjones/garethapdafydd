@@ -1,7 +1,7 @@
 ---
 title: Importing PostgreSQL data into ClickHouse Cloud
 description: Replicating Rails production data and importing it into ClickHouse Cloud.
-date: '2023-04-24'
+date: '2023-04-23'
 abstract:  I wanted to share a very quick and easy technique that I use to insert data from my iOS app, Fight Scores, into a ClickHouse Cloud service.
 socialImage: '/assets/images/posts/clickhouse/social-clickhouse-postgresql.png'
 ---
