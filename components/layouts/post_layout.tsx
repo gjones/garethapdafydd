@@ -17,7 +17,8 @@ const PostContainer = styled.div`
   }
 
   p,
-  ul {
+  ul,
+  .note {
     color: ${(props) => props.theme.text.default};
     line-height: 1.5;
     max-width: 94%;
@@ -35,15 +36,45 @@ const PostContainer = styled.div`
     }
   }
 
+  .note {
+    background: ${(props) => props.theme.divide};
+    color: ${(props) => props.theme.text.default};
+    padding: ${(props) => props.theme.sizes.sizeML};
+    border-radius: ${(props) => props.theme.sizes.sizeS};
+    margin-top: 3rem;
+  }
+
+  h3 {
+    margin-top: 3rem;
+    color: ${(props) => props.theme.text.default};
+  }
+
+  code {
+    background: ${(props) => props.theme.divide};
+    padding: ${(props) => props.theme.sizes.sizeXS};
+    border-radius: ${(props) => props.theme.sizes.sizeXS};
+    margin-top: -2px;
+  }
+
   pre {
     background: ${(props) => props.theme.code.background};
     color: ${(props) => props.theme.code.text};
     padding: ${(props) => props.theme.sizes.sizeM};
     border-radius: ${(props) => props.theme.sizes.sizeS};
+    code {
+      background: transparent;
+    }
+    @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
+      code {
+        white-space: break-spaces;
+        word-break: break-word;
+      }
+    }
   }
 
   li {
     margin: ${(props) => props.theme.sizes.sizeM} 0;
+    color: ${(props) => props.theme.text.default};
   }
 
   .left,
