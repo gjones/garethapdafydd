@@ -17,6 +17,10 @@ Here's a breakdown of the steps I'll take:
 4. Query the dataset in the built-in SQL console
 
 
+<div class='note'>
+  It is possible to directly query your data in the ClickHouse Cloud SQL console without exporting it to CSV file first using the <a href='https://clickhouse.com/docs/en/sql-reference/table-functions/postgresql' target='_blank'>PostgreSQL function</a>, for more information about that approach, scroll to the <a href='#bottom-function'>bottom</a>.
+</div>
+
 ### 1. Connect to the production database and copy the fights table
 
 I'd like to take advantage of the simple file uploading capabilities of ClickHouse Cloud, so my data should be in either JSON or CSV format. To achieve this, I'll need to connect to the database and export the `fights` table into a CSV file.
@@ -90,6 +94,8 @@ Great, lets finish up by running a basic query on this data. We'll search for al
 *![Data running into ClickHouse Cloud Service](/assets/images/posts/clickhouse/ch-fight-query-border.png "Data running into ClickHouse Cloud Service")*
 
 So we've copied a table from a PostgreSQL database, converted it to CSV, inserted it into ClickHouse Cloud and run a basic query, all in just a few minutes. This is obviously not a meant as an indepth introduction to ClickHouse Cloud, if you are interested in that type of content, pop over to the [ClickHouse blog](https://clickhouse.com/blog/) where the team is doing a great job of writing up examples and common use cases.
+
+<a id='bottom-function'></a>
 
 ### Update: PostgreSQL function
 If you wish to skip the first three bullets and jump straight into querying live data from your database in the SQL console, you can do that by creating a ClickHouse Cloud account, and using the [PostgreSQL function](https://clickhouse.com/docs/en/sql-reference/table-functions/postgresql). Be aware, you may need to update the entries in your `pg_hba.conf` to allow ClickHouse Cloud to connect. 

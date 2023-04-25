@@ -17,7 +17,8 @@ const PostContainer = styled.div`
   }
 
   p,
-  ul {
+  ul,
+  .note {
     color: ${(props) => props.theme.text.default};
     line-height: 1.5;
     max-width: 94%;
@@ -33,6 +34,14 @@ const PostContainer = styled.div`
     @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
       max-width: 98%;
     }
+  }
+
+  .note {
+    background: ${(props) => props.theme.divide};
+    color: ${(props) => props.theme.text.default};
+    padding: ${(props) => props.theme.sizes.sizeML};
+    border-radius: ${(props) => props.theme.sizes.sizeS};
+    margin-top: 3rem;
   }
 
   h3 {
