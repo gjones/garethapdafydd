@@ -5,9 +5,9 @@ date: '2023-04-24'
 abstract:  I wanted to share a very quick and easy technique that I use to insert data from my iOS app, Fight Scores, into a ClickHouse Cloud service.
 ---
 
-Working at [ClickHouse]('https://clickhouse.com/'), I often find myself needing to insert data into cloud services to test user flows, reproduce bugs, or compare experiences. Although there is plenty of dummy data available on the web, I prefer using meaningful, real-world datasets.
+Working at [ClickHouse](https://clickhouse.com/), I often find myself needing to insert data into cloud services to test user flows, reproduce bugs, or compare experiences. Although there is plenty of dummy data available on the web, I prefer using meaningful, real-world datasets.
 
-In this post, I will create a copy of the production database for my iOS app, [Fight Scores]('https://fightscores.co/'), insert it into a ClickHouse Cloud Service, and execute a few basic queries. I actually do this fairly regularly, as querying ClickHouse is orders of magnitude faster than Postgres, even at my small scale.
+In this post, I will create a copy of the production database for my iOS app, [Fight Scores](https://fightscores.co/), insert it into a ClickHouse Cloud Service, and execute a few basic queries. I actually do this fairly regularly, as querying ClickHouse is orders of magnitude faster than Postgres, even at my small scale.
 
 Here's a breakdown of the steps I'll take:
 
