@@ -67,6 +67,7 @@ const PostContainer = styled.div`
     @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
       code {
         white-space: break-spaces;
+        word-break: break-word;
       }
     }
   }
