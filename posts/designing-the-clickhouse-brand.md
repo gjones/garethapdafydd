@@ -46,7 +46,7 @@ The general vibe is a bit of an '80s throwback with diagonal shapes and bold let
 
 *![Example blog images](/assets/images/posts/clickhouse/ch-blog-examples.png "Example blog images")*
 
-Producing a new brand was a massive undertaking, and accomplishing this with a small team in such a short amount of time is still quite staggering to me. Special thanks go to [Justin]('https://twitter.com/defaultalive'), who I met with everyday and was instrumental in the creative process, and to Cristina and Daniel, who’s patience and hard work bringing these ideas to life cannot be understated.
+Producing a new brand was a massive undertaking, and accomplishing this with a small team in such a short amount of time is still quite staggering to me. Special thanks go to [Justin](https://twitter.com/defaultalive), who I met with everyday and was instrumental in the creative process, and to Cristina and Daniel, who’s patience and hard work bringing these ideas to life cannot be understated.
 
 Since launch, the support we received from colleagues across the company has been genuinely inspiring, and the reception the new brand has garnered, both internally and externally, has been overwhelmingly positive.
 
