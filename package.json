@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Gareth ap Dafydd - Designer and Developer.",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
