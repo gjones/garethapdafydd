@@ -32,7 +32,7 @@ And so started the period of numerous (and I mean numerous) iterations. We spent
 
 *![Updating the ClickHouse logo](/assets/images/posts/clickhouse/ch-old-vs-new-logo.png "Updating the ClickHouse logo")*
 
-We lightened the shade and gave it a subtle touch of green that hinted at, without fully resembling, a garish neon sign.
+We lightened the shade and gave it a subtle touch of green that hinted at, without fully resembling, a neon sign.
 
 This gave us the foundation on which to build. We are using Basier Square as the display font. We could have used Inter for the titles, as we do for the body copy, but we felt that Basier is a little more expressive. The predominant colour we are using opposite our new yellow is black, which provides the high contrast "punchiness" that we are looking for. Over time, we plan to add some more vibrant colours into the mix as accents, but initially leading with the core yellow and black is a good way to establish this new aesthetic.
 
