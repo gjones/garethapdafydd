@@ -6,7 +6,7 @@ abstract: I don't often write about work achievements, but this one is special, 
 socialImage: '/assets/images/posts/clickhouse/social-designing-brand.png'
 ---
 
-I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a brand-new website. I wanted to take a moment to share a little bit about how we reached this milestone.
+I don't often write about work achievements, but this one is special, so I'm making an exception. Last week at ClickHouse, we unveiled an exciting new brand identity, complete with vibrant colours, distinctive typography, and a <a href='https://clickhouse.com/' target='_blank'>brand-new website</a>. I wanted to take a moment to share a little bit about how we reached this milestone.
 
 *![The new ClickHouse brand colours](/assets/images/posts/clickhouse/ch-logo.gif "The new ClickHouse brand colours")*
 
