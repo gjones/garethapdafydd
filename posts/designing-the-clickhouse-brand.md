@@ -34,7 +34,7 @@ And so started the period of numerous (and I mean numerous) iterations. We spent
 
 We lightened the shade and gave it a subtle touch of green that hinted at, without fully resembling, a neon sign.
 
-This gave us the foundation on which to build. We are using Basier Square as the display font. We could have used Inter for the titles, as we do for the body copy, but we felt that Basier is a little more expressive. The predominant colour we are using opposite our new yellow is black, which provides the high contrast "punchiness" that we are looking for. Over time, we plan to add some more vibrant colours into the mix as accents, but initially leading with the core yellow and black is a good way to establish this new aesthetic.
+This gave us the foundation on which to build. We are using <a href='https://www.atipofoundry.com/fonts/basier' target='_blank'>Basier Square</a> as the display font. We could have used <a href='https://rsms.me/inter/' target='_blank'>Inter</a> for the titles, as we do for the body copy, but we felt that Basier is a little more expressive. The predominant colour we are using opposite our new yellow is black, which provides the high contrast "punchiness" that we are looking for. Over time, we plan to add some more vibrant colours into the mix as accents, but initially leading with the core yellow and black is a good way to establish this new aesthetic.
 
 We toned down the initial website release a little, opting for a darker appearance to appeal to a developer audience, while our social media, and offline assets tend to be brighter. Over time we’ll bring that exuberance and brightness back to the website but we’re happy with where we are right now.
 
