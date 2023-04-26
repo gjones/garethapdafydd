@@ -95,7 +95,7 @@ export default class Page extends Component<Props> {
 
           {/* Twitter  */}
           <meta name='twitter:card' content='summary_large_image' />
-          <meta name='twitter:site' content='@GarethapJones' />
+          <meta name='twitter:site' content='@GarethapDafydd' />
           <meta name='twitter:title' content={title} />
           <meta name='twitter:description' content={description} />
           <meta
