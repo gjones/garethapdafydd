@@ -81,24 +81,32 @@ export default class Page extends Component<Props> {
             color='#5bbad5'
           />
 
+          {/* Open Graph */}
           <meta property='og:title' content={title} />
           <meta property='og:description' content={description} />
-          <meta property='twitter:title' content={title} />
-          <meta property='twitter:description' content={description} />
-          <meta name='twitter:card' content='summary_large_image' />
-
           <meta
             property='og:image'
             content={
-              socialImage ? socialImage : '/assets/images/social-base.png'
+              socialImage
+                ? 'https://garethdjones.com' + socialImage
+                : 'https://garethdjones.com/assets/images/social-base.png'
             }
           />
+
+          {/* Twitter  */}
+          <meta name='twitter:card' content='summary_large_image' />
+          <meta name='twitter:site' content='@GarethapJones' />
+          <meta name='twitter:title' content={title} />
+          <meta name='twitter:description' content={description} />
           <meta
-            property='twitter:image'
+            name='twitter:image'
             content={
-              socialImage ? socialImage : '/assets/images/social-base.png'
+              socialImage
+                ? 'https://garethdjones.com' + socialImage
+                : 'https://garethdjones.com/assets/images/social-base.png'
             }
           />
+
           <meta name='theme-color' content='#ffffff'></meta>
           <script
             async
