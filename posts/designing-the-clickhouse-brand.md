@@ -19,12 +19,8 @@ Late in 2022, when we first started talking about updating our brand, we saw it 
 
 Discussion with our leadership team provided insight into our internal identity, while our field team helped us understand how others perceive ClickHouse, as well as our strengths and weaknesses. By combining these inputs with our own deductions, we created a list of core visual brand attributes. We were looking to create a brand that could effectively communicate the following:
 
-- Vibrancy
-- Energy
-- Boldness
-- Distinctiveness
-- Freshness
-
+*![Vibrancy, Energy, Boldness, Distinctiveness, Freshness](/assets/images/posts/clickhouse/vibrant.png "Vibrancy, Energy, Boldness, Distinctiveness, Freshness")*
+<p class='figure'>Vibrant, Energetic, Bold, Distinctive, Fresh</p>
 
 After conducting a little competitive research to see what insights we could glean from others in and around our industry, things began to get interesting for me. There were so many stylish, modern, well-crafted websites out there, websites that I absolutely loved on an individual level. Yet, I found myself struggling to understand the overarching brand for these companies. I, as much as the next designer, hugely appreciate space-themed, neofuturistic, pink-purple gradient-based websites. They inspire awe and feel cutting edge in today's online world, but if everyone is doing the same thing, how can anyone stand out? How does that approach effectively translate to meet-ups, conference booths, and a memorable offline experience for our prospective customers?
 

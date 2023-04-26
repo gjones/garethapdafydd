@@ -37,6 +37,13 @@ const PostContainer = styled.div`
     }
   }
 
+  .figure {
+    color: ${(props) => props.theme.text.light};
+    text-align: center;
+    font-size: ${(props) => props.theme.sizes.sizeM};
+    margin-top: -${(props) => props.theme.sizes.sizeL};
+  }
+
   .note {
     background: ${(props) => props.theme.divide};
     color: ${(props) => props.theme.text.default};
