@@ -57,11 +57,13 @@ export default class Page extends Component<Props> {
         <Head>
           <title>{title}</title>
           <meta name='description' content={description}></meta>
+          <link rel='me' href='https://garethdjones.com' />
           <link
             rel='apple-touch-icon'
             sizes='180x180'
             href='/assets/images/favicon/apple-touch-icon.png'
           />
+
           <link
             rel='icon'
             type='image/png'
