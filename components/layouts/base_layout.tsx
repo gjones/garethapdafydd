@@ -57,7 +57,7 @@ export default class Page extends Component<Props> {
         <Head>
           <title>{title}</title>
           <meta name='description' content={description}></meta>
-          <link rel='me' href='https://garethdjones.com' />
+          <link rel='me' href='https://mastodon.social/@garethdjones' />
           <link
             rel='apple-touch-icon'
             sizes='180x180'
