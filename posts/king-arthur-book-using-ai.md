@@ -28,7 +28,7 @@ Generating a picture of a sad looking King and Queen outside of a castle wasn't 
 *![King and Queen using Midjourney](/assets/images/posts/arthur/king-queen-scheffler.png "King and Queen using Midjourney")*
 
 
-This was great, and also really scary as, at a glance, you would think it was an Axel Scheffler illustration. One issue I had was the shape, I wanted a truly immersive book, and to do that the image couldn't just be square, it has to span the entire width of the two pages. To achieve this I jumped over to Dall•e and used it's excellent generation tools to double the width of the image.
+This was great, and also really scary as, at a glance, you would think that they were Axel Scheffler illustrations. That said, one issue I had was the shape, I wanted a truly immersive book, and to do that the image couldn't just be square, it has to span the entire width of the two pages. To achieve this I jumped over to Dall•e and used it's excellent generation tools to double the width of the image.
 
 *![Extending King and Queen using Dalle](/assets/images/posts/arthur/dalle-king-queen.png "Extending King and Queen using Dalle")*
 
@@ -40,6 +40,8 @@ No Arthurian tale is complete without the powerful magician Merlin (Myrddin in W
 
 If you know the source material, you'll notice that while each of these illustrations looks like an Axel Scheffler drawing, they don't all have the same style, as though they've been taken from separate books. For my purposes, that's totally fine. It eases my conscience a little and its unlikely to be something that my daughter will pick up on. If I was really trying, I could spend a lot more time perfecting and getting the styles all in sync. 
 
+
+### Final thoughts
 This was really just an experiment that I thought might be interesting to share. AI's potential is frightening, both as a force for good and for bad. We'll have to see which path it takes, but in the meantime, I'll have fun experimenting with using it for little things like this that put a smile on my children's faces. 
 
 Here's the first three pages of my version of The Sword in the Stone.
