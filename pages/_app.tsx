@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     // Once the operations are complete, set isLoading to false
     async function fetchData() {
       // Example: Simulate loading data for 2 seconds
-      await new Promise((resolve) => setTimeout(resolve, 2000))
+      await new Promise((resolve) => setTimeout(resolve, 0))
       setIsLoading(false)
     }
 
