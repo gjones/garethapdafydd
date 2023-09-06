@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "npm run lint-eslint -- --fix && npm run lint-sass",
     "lint-eslint": "eslint --ext .tsx --cache --quiet .",
-    "lint-sass": "sass-lint --verbose --no-exit"
+    "lint-sass": "sass-lint --verbose --no-exit",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@types/classnames": "^2.2.11",
@@ -25,6 +26,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "gray-matter": "^4.0.2",
     "next": "10.0.3",
+    "next-sitemap": "^4.2.2",
     "node": "^18.15.0",
     "node-gyp": "^9.3.1",
     "nvm": "^0.0.4",
