@@ -1,24 +1,19 @@
-import type { AppProps /*, AppContext */ } from 'next/app'
-import React, { useState, useEffect } from 'react'
+import type { AppProps } from 'next/app'
 import useDarkMode from 'use-dark-mode'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme, darkTheme } from '../components/theme'
 
-import '@styles/helpers/globals.scss'
+import '../styles/helpers/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [isMounted, setIsMounted] = useState(false)
-  const darkMode = useDarkMode(true)
-  const theme = darkMode.value ? darkTheme : lightTheme
-
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
+  const { value: isDarkMode } = useDarkMode(true)
+  const theme = isDarkMode ? darkTheme : lightTheme
 
   return (
     <ThemeProvider theme={theme}>
-      {isMounted && <Component {...pageProps} />}
+      <Component {...pageProps} />
     </ThemeProvider>
   )
 }
+
 export default MyApp
