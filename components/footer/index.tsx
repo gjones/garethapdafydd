@@ -5,7 +5,7 @@ import LogoGithub from './logo_github'
 import LogoEnvelope from './logo_envelope'
 import { FlexGroupCentred, FlexItemCentred } from 'components/utils/grid'
 
-const Footer = styled.main`
+const Footer = styled.footer`
   margin: ${(props) => props.theme.sizes.sizeXXL} 0;
   font-size: ${(props) => props.theme.fontSizes.textSmall};
   color: ${(props) => props.theme.text.light};
@@ -16,7 +16,7 @@ export default function Navigation() {
 
   return (
     <Footer>
-      <p>Imagined &amp; crafted by Gareth Dafydd Jones &copy; {year}</p>
+      <p>Imagined &amp; crafted by Gareth ap Dafydd &copy; {year}</p>
 
       <FlexGroupCentred>
         <FlexItemCentred>
