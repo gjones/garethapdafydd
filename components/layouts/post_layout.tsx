@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Page from '@layouts/base_layout'
 import styled from 'styled-components'
 
@@ -113,17 +113,23 @@ const PostContainer = styled.div`
   }
 `
 
-export default class PostPage extends Component<Props> {
-  render() {
-    return (
-      <Page
-        title={this.props.title}
-        description={this.props.description}
-        smallHeadline='Thoughts &amp; Musings'
-        largeHeadline={this.props.title}
-        socialImage={this.props.socialImage}>
-        <PostContainer>{this.props.children}</PostContainer>
-      </Page>
-    )
-  }
+const PostPage: React.FC<Props> = ({
+  title,
+  description,
+  largeHeadline,
+  socialImage,
+  children,
+}: Props) => {
+  return (
+    <Page
+      title={title}
+      description={description}
+      smallHeadline='Thoughts &amp; Musings'
+      largeHeadline={largeHeadline}
+      socialImage={socialImage}>
+      <PostContainer>{children}</PostContainer>
+    </Page>
+  )
 }
+
+export default PostPage

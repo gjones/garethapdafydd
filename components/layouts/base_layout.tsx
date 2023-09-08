@@ -1,5 +1,4 @@
-import React, { Component, ReactNode } from 'react'
-
+import React, { ReactNode } from 'react'
 import HeadSEO from './headSEO'
 import Navigation from '../navigation'
 import Footer from '../footer'
@@ -41,43 +40,42 @@ const Container = styled.main`
   }
 `
 
-export default class Page extends Component<Props> {
-  render() {
-    const {
-      title,
-      description,
-      smallHeadline,
-      largeHeadline,
-      largeHeadline2,
-      profileImage,
-      socialImage,
-    } = this.props
+const Page: React.FC<Props> = ({
+  title,
+  description,
+  smallHeadline,
+  largeHeadline,
+  largeHeadline2,
+  profileImage,
+  socialImage,
+  children,
+}: Props) => {
+  return (
+    <Wrapper>
+      <HeadSEO
+        title={title}
+        description={description}
+        socialImage={socialImage}
+      />
 
-    return (
-      <Wrapper>
-        <HeadSEO
-          title={title}
-          description={description}
-          socialImage={socialImage}
-        />
+      <Container>
+        <div className='main'>
+          <Navigation />
 
-        <Container>
-          <div className='main'>
-            <Navigation />
+          <Title
+            smallHeadline={smallHeadline}
+            largeHeadline={largeHeadline}
+            largeHeadline2={largeHeadline2}
+            profileImage={profileImage}
+          />
 
-            <Title
-              smallHeadline={smallHeadline}
-              largeHeadline={largeHeadline}
-              largeHeadline2={largeHeadline2}
-              profileImage={profileImage}
-            />
-
-            <HorizontalDivide />
-            {this.props.children}
-          </div>
-          <Footer />
-        </Container>
-      </Wrapper>
-    )
-  }
+          <HorizontalDivide />
+          {children}
+        </div>
+        <Footer />
+      </Container>
+    </Wrapper>
+  )
 }
+
+export default Page
