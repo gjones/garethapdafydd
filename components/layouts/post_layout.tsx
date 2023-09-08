@@ -7,6 +7,7 @@ type Props = {
   description: string
   largeHeadline: string
   socialImage: string
+  canonicalUrl: string
   children: any
 }
 
@@ -118,6 +119,7 @@ const PostPage: React.FC<Props> = ({
   description,
   largeHeadline,
   socialImage,
+  canonicalUrl,
   children,
 }: Props) => {
   return (
@@ -126,7 +128,8 @@ const PostPage: React.FC<Props> = ({
       description={description}
       smallHeadline='Thoughts &amp; Musings'
       largeHeadline={largeHeadline}
-      socialImage={socialImage}>
+      socialImage={socialImage}
+      canonicalUrl={canonicalUrl}>
       <PostContainer>{children}</PostContainer>
     </Page>
   )

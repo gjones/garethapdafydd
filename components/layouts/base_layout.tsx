@@ -14,6 +14,7 @@ type Props = {
   largeHeadline2?: string
   profileImage?: boolean
   socialImage?: string
+  canonicalUrl?: string
   children: ReactNode
 }
 
@@ -48,6 +49,7 @@ const Page: React.FC<Props> = ({
   largeHeadline2,
   profileImage,
   socialImage,
+  canonicalUrl,
   children,
 }: Props) => {
   return (
@@ -56,6 +58,7 @@ const Page: React.FC<Props> = ({
         title={title}
         description={description}
         socialImage={socialImage}
+        canonicalUrl={'https://garethdjones.com/' + canonicalUrl}
       />
 
       <Container>

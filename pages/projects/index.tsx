@@ -118,7 +118,8 @@ export default function Projects() {
       title='Projects | Gareth ap Dafydd'
       description='A collection of past notable project from my career'
       smallHeadline='Projects'
-      largeHeadline='A selection of both personal and professional work'>
+      largeHeadline='A selection of both personal and professional work'
+      canonicalUrl='projects'>
       <SpacerXL />
       <Project>
         <FlexSplitL>

@@ -60,7 +60,8 @@ export default function Home() {
       smallHeadline='Gareth ap Dafydd'
       largeHeadline='Design lead at ClickHouse.'
       largeHeadline2='Independent iOS app developer'
-      profileImage={true}>
+      profileImage={true}
+      canonicalUrl=''>
       <SpacerXL />
 
       <FlexGroup>

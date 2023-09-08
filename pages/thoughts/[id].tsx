@@ -14,6 +14,7 @@ export default function Post(props: Props): React.ReactElement {
       title={props.postData.title}
       description={props.postData.description}
       largeHeadline={props.postData.title}
+      canonicalUrl={`thoughts/${props.postData.id}`}
       socialImage={
         props.postData.socialImage
           ? props.postData.socialImage

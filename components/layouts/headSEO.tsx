@@ -4,6 +4,7 @@ type Props = {
   title: string
   description: string
   socialImage?: string
+  canonicalUrl: string
 }
 
 function HeadSEO(props: Props) {
@@ -13,6 +14,7 @@ function HeadSEO(props: Props) {
       <meta name='description' content={props.description}></meta>
       <link rel='me' href='https://mastodon.social/@garethdjones' />
       <link rel='me' href='https://twitter.com/GarethapDafydd' />
+      <link rel='canonical' href={props.canonicalUrl} />
       <link
         rel='apple-touch-icon'
         sizes='180x180'
