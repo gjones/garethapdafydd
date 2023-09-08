@@ -6,11 +6,11 @@ import { lightTheme, darkTheme } from '../components/theme'
 import '@styles/helpers/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const { value: isDarkMode } = useDarkMode(true)
-  const theme = isDarkMode ? darkTheme : lightTheme
+  const darkMode = useDarkMode(true)
+  const initialTheme = darkMode.value
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={initialTheme ? darkTheme : lightTheme}>
       <Component {...pageProps} />
     </ThemeProvider>
   )
