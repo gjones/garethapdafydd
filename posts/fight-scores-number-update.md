@@ -5,7 +5,7 @@ date: '2023-12-31'
 abstract: It's been a few years since I last looked at the numbers for my iOS app Fight Scores. As I was preparing for a fairly major feature release for it over the Christmas period, I figured now was a good time to revisit...
 ---
 
-It's been a few years since I last looked at the numbers for my iOS app [Fight Scores](http://itunes.apple.com/app/fight-scores-2-boxing-scorecards/id1125374157?ls=1&mt=8). As I was preparing for a fairly major feature release for it over the Christmas period, I figured now was a good time to revisit and see how healthy it is. As a disclaimer, Fight Scores is purely a passion project for me, I improve it and maintain it not to make money, but because I enjoy it and truly think that the boxing industry needs to have better technology.
+It's been a few years since I last looked [at the numbers](https://garethdjones.com/thoughts/fight-scores-by-the-numbers) for my iOS app [Fight Scores](http://itunes.apple.com/app/fight-scores-2-boxing-scorecards/id1125374157?ls=1&mt=8). As I was preparing for a fairly major feature release for it over the Christmas period, I figured now was a good time to revisit and see how healthy it is. As a disclaimer, Fight Scores is purely a passion project for me, I improve it and maintain it not to make money, but because I enjoy it and truly think that the boxing industry needs to have better technology.
 
 **![Fight Scores App Sales over the years](/assets/images/posts/2024-fs-sales.png "Fight Scores App Sales over the years")**
 
