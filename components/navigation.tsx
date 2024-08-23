@@ -1,3 +1,4 @@
+// @ts-ignore
 import ActiveLink from './utils/activeLink'
 import useDarkMode from 'use-dark-mode'
 import styled from 'styled-components'

@@ -9,7 +9,7 @@
     "react",
     "react-hooks"
   ],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+  //"extends": ["eslint:recommended", "next", "plugin:react/recommended", "plugin:prettier/recommended"],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 2018

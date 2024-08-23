@@ -23,7 +23,8 @@ export default function Navigation() {
           <a
             href='https://www.linkedin.com/in/garethapdafydd/'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+          >
             <LogoLinkedIn />
           </a>
         </FlexItemCentred>
@@ -31,7 +32,8 @@ export default function Navigation() {
           <a
             href='https://twitter.com/garethapdafydd'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+          >
             <LogoTwitter />
           </a>
         </FlexItemCentred>
@@ -44,7 +46,8 @@ export default function Navigation() {
           <a
             href='mailto:me@garethdjones.com?subject=Inquiry from garethdjones.com'
             target='_blank'
-            rel='noreferrer'>
+            rel='noreferrer'
+          >
             <LogoEnvelope />
           </a>
         </FlexItemCentred>

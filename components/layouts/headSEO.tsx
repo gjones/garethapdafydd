@@ -71,7 +71,8 @@ function HeadSEO(props: Props) {
         async
         defer
         data-domain='garethdjones.com'
-        src='https://plausible.io/js/plausible.js'></script>
+        src='https://plausible.io/js/plausible.js'
+      ></script>
     </Head>
   )
 }

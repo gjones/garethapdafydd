@@ -19,7 +19,8 @@ export default function Post(props: Props): React.ReactElement {
         props.postData.socialImage
           ? props.postData.socialImage
           : '/assets/images/social-base.png'
-      }>
+      }
+    >
       <br />
       <Date dateString={props.postData.date} />
       <br />

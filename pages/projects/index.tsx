@@ -119,7 +119,8 @@ export default function Projects() {
       description='A collection of past notable project from my career'
       smallHeadline='Projects'
       largeHeadline='A selection of both personal and professional work'
-      canonicalUrl='projects'>
+      canonicalUrl='projects'
+    >
       <SpacerXL />
 
       {/* <Project>
