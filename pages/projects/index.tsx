@@ -123,7 +123,7 @@ export default function Projects() {
     >
       <SpacerXL />
 
-      {/* <Project>
+      <Project>
         <FlexSplitL>
           <ProjectTitle>ClickHouse</ProjectTitle>
           <DefaultText>
@@ -143,50 +143,13 @@ export default function Projects() {
         <FlexSplitR>
           <SpacerM />
           <FlexItem>
-            <StarFlexGroup>
-              <FlexItem>
-                <StarImage
-                  src='/assets/images/projects/star-filled.png'
-                  alt='star filled'
-                />
-              </FlexItem>
-              <FlexItem>
-                <StarImage
-                  src='/assets/images/projects/star-filled.png'
-                  alt='star filled'
-                />
-              </FlexItem>
-              <FlexItem>
-                <StarImage
-                  src='/assets/images/projects/star-filled.png'
-                  alt='star filled'
-                />
-              </FlexItem>
-              <FlexItem>
-                <StarImage
-                  src='/assets/images/projects/star-filled.png'
-                  alt='star filled'
-                />
-              </FlexItem>
-              <FlexItem>
-                <StarImage
-                  src='/assets/images/projects/star-half.png'
-                  alt='star half'
-                />
-              </FlexItem>
-              <FlexItem>
-                <StarText>100+ ratings</StarText>
-              </FlexItem>
-            </StarFlexGroup>
-          </FlexItem>
-          <FlexItem>
             <ProjectImage
-              src='/assets/images/projects/fight-scores.png'
-              alt='introduction-photo'
+              src='/assets/images/projects/clickhouse-example.png'
+              alt='clickhouse-work'
             />
           </FlexItem>
         </FlexSplitR>
-      </Project> */}
+      </Project>
 
       <SpacerXL />
       <HorizontalDivide />
