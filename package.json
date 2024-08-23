@@ -15,9 +15,8 @@
   },
   "dependencies": {
     "@types/classnames": "^2.2.11",
-    "@types/styled-components": "^5.1.5",
+    "@types/styled-components": "^5.1.34",
     "@typescript-eslint/parser": "^4.10.0",
-    "active-class-name": "^1.0.0",
     "date-fns": "^2.16.1",
     "eslint": "^7.15.0",
     "eslint-config-prettier": "^7.0.0",
@@ -25,28 +24,33 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "gray-matter": "^4.0.2",
-    "next": "10.0.3",
+    "next": "^14.2.6",
     "next-sitemap": "^4.2.2",
     "node": "^18.15.0",
     "node-gyp": "^9.3.1",
     "nvm": "^0.0.4",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.41",
     "prettier": "^2.2.1",
-    "react": "^18.2.0",
-    "react-dom": "16.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "^5.0.1",
-    "react-switch": "^5.0.1",
     "remark": "^11.0.0",
     "remark-html": "^11.0.1",
-    "remark-parse": "10.0.1",
+    "remark-parse": "^10.0.1",
     "sass": "^1.30.0",
-    "sharp": "^0.32.0",
-    "styled-components": "^5.2.1",
+    "sharp": "^0.33.5",
+    "styled-components": "^6.1.12",
+    "styled-jsx": "^5.1.6",
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.14",
     "@types/react": "^18.0.37",
     "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": "^18.13.1",
+    "react-dom": "^18.3.1"
   }
 }

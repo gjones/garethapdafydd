@@ -84,7 +84,7 @@ const NavList = styled.ul`
   }
 `
 
-const NavLink = styled.a`
+const NavLink = styled.span`
   color: ${(props) => props.theme.text.default};
   padding: ${(props) => props.theme.sizes.baseSize};
   text-decoration: none;

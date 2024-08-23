@@ -121,6 +121,76 @@ export default function Projects() {
       largeHeadline='A selection of both personal and professional work'
       canonicalUrl='projects'>
       <SpacerXL />
+
+      {/* <Project>
+        <FlexSplitL>
+          <ProjectTitle>ClickHouse</ProjectTitle>
+          <DefaultText>
+            I joined ClickHouse back in early 2021 as Head of Design before we had a product. I got stuck in immediately, working with our founding team to design and develop the initial release of ClickHouse Cloud.
+          </DefaultText>
+          <DefaultText>
+            I put together our initial design system and was a lead developer on creating the accompanying component library, Click UI, which you can read about here.
+          </DefaultText>
+          <DefaultText>
+            On the marketing side I re-designed and developed our website, and then led company rebranding efforts that culminated in another redesign.
+          </DefaultText>
+          <DefaultText>
+            I'm currently building out our design team with super talented professionals from all over the world. They're far better than me and I'm excited to see what the future holds.
+          </DefaultText>
+        </FlexSplitL>
+
+        <FlexSplitR>
+          <SpacerM />
+          <FlexItem>
+            <StarFlexGroup>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-filled.png'
+                  alt='star filled'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarImage
+                  src='/assets/images/projects/star-half.png'
+                  alt='star half'
+                />
+              </FlexItem>
+              <FlexItem>
+                <StarText>100+ ratings</StarText>
+              </FlexItem>
+            </StarFlexGroup>
+          </FlexItem>
+          <FlexItem>
+            <ProjectImage
+              src='/assets/images/projects/fight-scores.png'
+              alt='introduction-photo'
+            />
+          </FlexItem>
+        </FlexSplitR>
+      </Project> */}
+
+      <SpacerXL />
+      <HorizontalDivide />
+      <SpacerXL />
+
       <Project>
         <FlexSplitL>
           <ProjectTitle>Fight Scores 3.0</ProjectTitle>

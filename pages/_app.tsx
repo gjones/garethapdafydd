@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app'
 import useDarkMode from 'use-dark-mode'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme, darkTheme } from '../components/theme'
+import { BrowserRouter } from 'react-router-dom'
 
 import '@styles/helpers/globals.scss'
 

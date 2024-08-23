@@ -109,7 +109,7 @@ export default function Home() {
           </DefaultText>
           <DefaultText>
             I love to get outdoors, running and hiking in the mountains. When
-            not spending time with my beautiful wife, daughter, and son, I can
+            not spending time with my beautiful daughter and son, I can
             be found indulging my passions for wine and boxing.
           </DefaultText>
           <DefaultText>
