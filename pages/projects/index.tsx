@@ -127,7 +127,7 @@ export default function Projects() {
         <FlexSplitL>
           <ProjectTitle>ClickHouse</ProjectTitle>
           <DefaultText>
-            I joined ClickHouse back in early 2021 as Head of Design before we had a product. I got stuck in immediately, working with our founding team to design and develop the initial release of ClickHouse Cloud.
+            I joined ClickHouse back in early 2022 as Head of Design before we had a product. I got stuck in immediately, working with our founding team to design and develop the initial release of ClickHouse Cloud.
           </DefaultText>
           <DefaultText>
             I put together our initial design system and was a lead developer on creating the accompanying component library, Click UI, which you can read about here.
