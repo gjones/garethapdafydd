@@ -1,3 +1,4 @@
+// @ts-ignore
 import ActiveLink from './utils/activeLink'
 import useDarkMode from 'use-dark-mode'
 import styled from 'styled-components'
@@ -84,7 +85,7 @@ const NavList = styled.ul`
   }
 `
 
-const NavLink = styled.a`
+const NavLink = styled.span`
   color: ${(props) => props.theme.text.default};
   padding: ${(props) => props.theme.sizes.baseSize};
   text-decoration: none;

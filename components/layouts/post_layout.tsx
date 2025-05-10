@@ -129,7 +129,8 @@ const PostPage: React.FC<Props> = ({
       smallHeadline='Thoughts &amp; Musings'
       largeHeadline={largeHeadline}
       socialImage={socialImage}
-      canonicalUrl={canonicalUrl}>
+      canonicalUrl={canonicalUrl}
+    >
       <PostContainer>{children}</PostContainer>
     </Page>
   )

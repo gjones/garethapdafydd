@@ -56,7 +56,8 @@ export default class Thoughts extends React.Component<Props> {
         description='Some thoughts and musings from Gareth Dafydd Jones, designer and developer'
         smallHeadline='Thoughts &amp; Musings'
         largeHeadline='I barely tweet, so don’t expect much in the way of blog posts'
-        canonicalUrl='thoughts'>
+        canonicalUrl='thoughts'
+      >
         <PostList>
           {this.props.allPostsData.map(({ id, date, title, abstract }: any) => (
             <li key={id}>

@@ -61,7 +61,8 @@ export default function Home() {
       largeHeadline='Design lead at ClickHouse.'
       largeHeadline2='Independent iOS app developer'
       profileImage={true}
-      canonicalUrl=''>
+      canonicalUrl=''
+    >
       <SpacerXL />
 
       <FlexGroup>
@@ -109,8 +110,8 @@ export default function Home() {
           </DefaultText>
           <DefaultText>
             I love to get outdoors, running and hiking in the mountains. When
-            not spending time with my beautiful wife, daughter, and son, I can
-            be found indulging my passions for wine and boxing.
+            not spending time with my beautiful daughter and son, I can be found
+            indulging my passions for wine and boxing.
           </DefaultText>
           <DefaultText>
             Hwyl fawr,

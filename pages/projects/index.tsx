@@ -119,8 +119,42 @@ export default function Projects() {
       description='A collection of past notable project from my career'
       smallHeadline='Projects'
       largeHeadline='A selection of both personal and professional work'
-      canonicalUrl='projects'>
+      canonicalUrl='projects'
+    >
       <SpacerXL />
+
+      <Project>
+        <FlexSplitL>
+          <ProjectTitle>ClickHouse</ProjectTitle>
+          <DefaultText>
+            I joined ClickHouse back in early 2022 as Head of Design before we had a product. I got stuck in immediately, working with our founding team to design and develop the initial release of ClickHouse Cloud.
+          </DefaultText>
+          <DefaultText>
+            I put together our initial design system and was a lead developer on creating the accompanying component library, Click UI, which you can read about <a href="https://click-ui.vercel.app/?path=/docs/introduction--docs" target="_blank">here</a>.
+          </DefaultText>
+          <DefaultText>
+            On the marketing side I re-designed and developed our website, and then led <a href="https://garethdjones.com/thoughts/designing-the-clickhouse-brand/">company rebranding efforts</a> that culminated in another redesign.
+          </DefaultText>
+          <DefaultText>
+            I'm currently building out our design team with super talented professionals from all over the world. They're far better than I am and I'm excited to see what the future holds.
+          </DefaultText>
+        </FlexSplitL>
+
+        <FlexSplitR>
+          <SpacerM />
+          <FlexItem>
+            <ProjectImage
+              src='/assets/images/projects/clickhouse-example.png'
+              alt='clickhouse-work'
+            />
+          </FlexItem>
+        </FlexSplitR>
+      </Project>
+
+      <SpacerXL />
+      <HorizontalDivide />
+      <SpacerXL />
+
       <Project>
         <FlexSplitL>
           <ProjectTitle>Fight Scores 3.0</ProjectTitle>

@@ -80,7 +80,7 @@ export default class Title extends Component<Props> {
           <FlexItem>
             <ProfileImage>
               <img
-                src='/assets/images/gareth-colour.jpg'
+                src='/assets/images/gareth-hat-square.png'
                 alt='Gareth ap Dafydd'
               />
             </ProfileImage>
