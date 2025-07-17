@@ -1,7 +1,7 @@
 ---
 title: A shift to SwiftUI
 description: Fight Scores v4.0 is now available and is built entirely using SwiftUI.
-date: '2025-07-18'
+date: '2025-07-16'
 abstract: It seems incredible to me that Fight Scores is now over a decade old. What started as a way of combining my interests, boxing and Apple, quickly became a constant throughout my life. 
 ---
 
