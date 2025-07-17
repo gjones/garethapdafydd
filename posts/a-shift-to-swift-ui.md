@@ -3,6 +3,7 @@ title: A shift to SwiftUI
 description: Fight Scores v4.0 is now available and is built entirely using SwiftUI.
 date: '2025-07-16'
 abstract: It seems incredible to me that Fight Scores is now over a decade old. What started as a way of combining my interests, boxing and Apple, quickly became a constant throughout my life. 
+socialImage: '/assets/images/posts/shift-social.png'
 ---
 
 It seems incredible to me that Fight Scores is now over a decade old. What started as a way of combining my interests, boxing and Apple, quickly became a constant throughout my life. Fight Scores 1.0 was released April 2, 2015 at 6:22 PM, originally at $9.99 and later fluctuating between $6.99 and $3.99. Too much wine has filtered through the system since for me to remember the exact moment it was released, but I remember the feelings: fear, pride, excitement, trepidation. To finally be able to call myself an iOS developer was a massive milestone and one that I'll never forget.
