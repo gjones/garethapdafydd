@@ -1,8 +1,8 @@
 ---
 title: 2025 Fight Scores by the numbers
 description: A look into the analytics behind the iOS app, Fight Scores.
-date: '2026-01-08'
-abstract: It's that time for another update on the numbers behind my iOS app, Fight Scores. 
+date: '2026-01-03'
+abstract: Another year rolls in and with it brings a deep dive into the Fight Scores analytics. 
 ---
 
 2025 felt like it went by really quickly and yet here we are with another look at the health of my iOS app, Fight Scores. For those interested in past editions, you can see [2021](/thoughts/fight-scores-by-the-numbers), [2023](/thoughts/fight-scores-number-update), [2024](thoughts/fight-scores-number-update-2024). 
