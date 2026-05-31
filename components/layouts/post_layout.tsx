@@ -86,17 +86,23 @@ const PostContainer = styled.div`
     color: ${(props) => props.theme.text.default};
   }
 
+  strong.logo img {
+    max-width: 250px;
+  }
+
   .left,
   strong {
     display: flex;
     align-items: flex-start;
     margin: ${(props) => props.theme.sizes.sizeXL} 0;
-    img {
+    img,
+    video {
       max-width: 85%;
     }
 
     @media only screen and ${(props) => props.theme.mediaQueries.smallScreens} {
-      img {
+      img,
+      video {
         max-width: 100%;
       }
     }
@@ -108,7 +114,8 @@ const PostContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin: ${(props) => props.theme.sizes.sizeXL} 0;
-    img {
+    img,
+    video {
       max-width: 85%;
     }
   }
